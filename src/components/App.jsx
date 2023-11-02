@@ -1,6 +1,7 @@
 import Nav from "../components/Nav.jsx";
 import Hero from "./Hero.jsx";
 import Projects from "./Projects/Projects.jsx";
+import Resume from "./Resume/Resume.jsx";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Nav />
       <Hero />
       <Projects />
+      <Resume />
     </div>
   );
 }

@@ -30,21 +30,17 @@ const ProjectThree = () => {
               Code
             </button>
           </div>
-        </div>
-        <div className="max-w-[400px] group relative grid overflow-hidden rounded-[10px] px-2 py-1 mt-[20px] shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset] transition-colors duration-200">
-          <span>
-            <span className="spark mask-gradient animate-flip before:animate-rotate absolute inset-0 h-[100%] w-[100%] overflow-hidden rounded-[10px] [mask:linear-gradient(white,_transparent_50%)] before:absolute before:aspect-square before:w-[200%] before:rotate-[-90deg] before:bg-[conic-gradient(from_0deg,transparent_0_340deg,white_360deg)] before:content-[''] before:[inset:0_auto_auto_50%] before:[translate:-50%_-15%]" />
-          </span>
-          <span className=" absolute inset-[1px] rounded-[10px] bg-black transition-colors duration-200" />
-          <span className="font-[Poppins] text-[15px] text-white px-[2px] py-[6px] relative">
-            Around The Us was my first ever launched and finished project using
-            pure JavaScript. The website is essentially a social media profile
-            section that allows the user to make it their own with the ability
-            to change the profile photo, name and bio, as well as add and remove
-            new photos! I built the project with a high focus on learning OOP.
-            The website is also connected to an API where the users data is
-            stored. Check it out!
-          </span>
+          <div className="max-w-[400px]  rounded-[10px] mt-[10px] bg-black">
+            <p className="font-[Poppins] text-[15px] text-white p-[10px]">
+              Around The Us was my first ever launched and finished project
+              using pure JavaScript. The website is essentially a social media
+              profile section that allows the user to make it their own with the
+              ability to change the profile photo, name and bio, as well as add
+              and remove new photos! I built the project with a high focus on
+              learning OOP. The website is also connected to an API where the
+              users data is stored. Check it out!
+            </p>
+          </div>
         </div>
       </div>
     </>

@@ -5,7 +5,7 @@ import ProjectThree from "./ProjectThree.jsx";
 const ProjectCards = () => {
   return (
     <>
-      <div className="flex justify-center gap-[50px] w-[100%]">
+      <div className="flex justify-center gap-[50px] w-[100%] ">
         <ProjectOne />
         <ProjectTwo />
         <ProjectThree />

@@ -32,8 +32,12 @@ const Hero = () => {
           in backend stacks such as Node.js, Express.js, MongoDB and Google
           Cloud. Stay a minute why dont ya, theres still more to see!
         </p>
-        <button className="w-[150px] rounded-[5px] p-[10px] bg-[#9b9b84] mt-[30px] font-[Poppins] font-semibold text-[20px] hover:opacity-80 hover:scale-105 ease-in-out duration-100">
-          Lets Chat
+        <button className="group relative inline-block overflow-hidden max-w-[200px] rounded border  bg-[#9B9B84]  px-12 py-4 text-[15px] hover:scale-110 ease-in-out duration-[1s] font-semibold mt-[75px] text-black">
+          <span className="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-black transition-all duration-[1s] group-hover:w-full"></span>
+          <span className="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-black transition-all duration-[1s] group-hover:h-full"></span>
+          <span className="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-black transition-all duration-[1s] group-hover:w-full"></span>
+          <span className="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-black transition-all duration-[1s] group-hover:h-full"></span>
+          Lets chat
         </button>
       </div>
       <div className=" bg-white h-[400px] bg-opacity-50 w-[400px] mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
