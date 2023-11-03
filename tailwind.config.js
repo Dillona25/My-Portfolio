@@ -21,6 +21,9 @@ export default {
         },
       },
     },
+    backgroundImage: {
+      LinkedIn: "url('../src/assets/LinkedIn.svg')",
+    },
   },
   plugins: [],
 };

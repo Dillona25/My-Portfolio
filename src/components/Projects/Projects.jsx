@@ -2,7 +2,7 @@ import ProjectCards from "./ProjectCards.jsx";
 
 const Projects = () => {
   return (
-    <div className=" max-w-[100%] mt-[150px] pb-[125px] bg-black">
+    <div className=" max-w-[100%] mt-[150px] pb-[125px]">
       <h1 className="font-[Poppins] text-white text-[50px] font-semibold pb-[10px] border-[#f5dfa1] border-b-2 mx-[70px]">
         Projects
       </h1>

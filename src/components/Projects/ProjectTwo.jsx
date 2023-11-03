@@ -9,7 +9,7 @@ const ProjectTwo = () => {
   return (
     <>
       <div className="flex flex-col">
-        <div className="w-[400px] flex flex-col bg-white rounded-[10px] border-2 border-white">
+        <div className="w-[400px] flex flex-col bg-white rounded-[10px] border-2 border-white shadow-xl shadow-black">
           <img
             className="w-[400px] h-[220px] bg-gray-400 rounded-t-[10px]"
             src={Us}
