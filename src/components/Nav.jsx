@@ -1,6 +1,6 @@
 import LinkedIn from "../assets/LinkedIn.svg";
 
-const Nav = () => {
+const Nav = ({ openModal }) => {
   return (
     <div className=" bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[70px] flex justify-between">
       <h1 className="font-[Poppins] text-[30px] font-semibold text-white">
@@ -10,7 +10,10 @@ const Nav = () => {
         <li className="text-white font-[Poppins] text-[18px]  self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white ">
           About me
         </li>
-        <li className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white">
+        <li
+          onClick={openModal}
+          className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
+        >
           Contact
         </li>
         <li className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white">

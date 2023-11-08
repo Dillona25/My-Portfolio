@@ -4,14 +4,25 @@ import Projects from "./Projects/Projects.jsx";
 import About from "./About.jsx";
 import ContactModal from "./ContactModal.jsx";
 import Footer from "./Footer.jsx";
+import { useState } from "react";
 
 function App() {
+  const [modal, setModal] = useState("");
+
+  const openModal = () => {
+    setModal("create");
+  };
+
+  const closeModal = () => {
+    setModal();
+  };
+
   return (
     <div className="bg-[#2b2b2b] max-w-[2000px] m-auto scroll-smooth">
-      <Nav />
+      <Nav openModal={openModal} />
       <Hero />
-      <About />
-      <ContactModal />
+      <About openModal={openModal} />
+      {modal === "create" && <ContactModal closeModal={closeModal} />}
       <Projects />
       <Footer />
     </div>

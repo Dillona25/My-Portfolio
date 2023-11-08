@@ -2,7 +2,7 @@ import React from "react";
 import Image1 from "../images/Image1.png";
 import Image2 from "../images/Image2.png";
 import Image3 from "../images/Image3.png";
-const About = () => {
+const About = ({ openModal }) => {
   return (
     <>
       <section className="overflow-hidden bg-[#363636] pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-[#32b2b2b] dark:bg-dark">
@@ -625,7 +625,10 @@ const About = () => {
                   I can contribute to significant growth, ultimately making an
                   impact on a team’s success!
                 </p>
-                <button className="group relative inline-block overflow-hidden max-w-[200px] rounded border  bg-[#9B9B84]  px-12 py-4 text-[15px] hover:scale-110 ease-in-out duration-[1s] font-semibold text-black">
+                <button
+                  onClick={openModal}
+                  className="group relative inline-block overflow-hidden max-w-[200px] rounded border  bg-[#9B9B84]  px-12 py-4 text-[15px] hover:scale-110 ease-in-out duration-[1s] font-semibold text-black"
+                >
                   <span className="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-black transition-all duration-[1s] group-hover:w-full"></span>
                   <span className="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-black transition-all duration-[1s] group-hover:h-full"></span>
                   <span className="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-black transition-all duration-[1s] group-hover:w-full"></span>

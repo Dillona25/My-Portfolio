@@ -23,6 +23,10 @@ export default {
     },
     backgroundImage: {
       LinkedIn: "url('../src/assets/LinkedIn.svg')",
+      LinkedIn2: "url('../src/assets/LinkedIn2.svg')",
+      Github2: "url('../src/assets/Github2.svg')",
+      Instagram: "url('../src/assets/Instagram.svg')",
+      Close: "url('../src/assets/Close.svg')",
     },
   },
   plugins: [require("daisyui")],
