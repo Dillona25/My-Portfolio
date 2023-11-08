@@ -54,7 +54,7 @@ const Footer = () => {
       </nav>
       <aside>
         <p className="font-[Poppins] text-white opacity-70">
-          Copyright © 2023 - All right reserved by ACME Industries Ltd
+          Copyright © 2023 - Dillon Arnolds Portfolio
         </p>
       </aside>
     </footer>

@@ -2,7 +2,7 @@ import LinkedIn from "../assets/LinkedIn.svg";
 
 const Nav = () => {
   return (
-    <div className=" w-[100%] pt-[25px] px-[70px]  flex justify-between">
+    <div className=" bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[70px] flex justify-between">
       <h1 className="font-[Poppins] text-[30px] font-semibold text-white">
         Logo
       </h1>

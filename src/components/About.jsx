@@ -1,6 +1,7 @@
 import React from "react";
 import Image1 from "../images/Image1.png";
 import Image2 from "../images/Image2.png";
+import Image3 from "../images/Image3.png";
 const About = () => {
   return (
     <>
@@ -11,19 +12,19 @@ const About = () => {
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
-                    <img src={Image2} alt="" className="w-full rounded-2xl" />
+                    <img src={Image1} alt="" className="w-full rounded-2xl" />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                      src={Image3}
                       alt=""
-                      className="w-full rounded-2xl"
+                      className="w-full h-[50%] rounded-2xl"
                     />
                   </div>
                 </div>
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
-                    <img src={Image1} alt="" className="w-full rounded-2xl" />
+                    <img src={Image2} alt="" className="w-full rounded-2xl" />
                     <span className="absolute -right-7 -bottom-7 z-[-1]">
                       <svg
                         width={134}
@@ -601,7 +602,7 @@ const About = () => {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <h1 className="block mb-4 font-[Poppins] text-white text-[50px] font-semibold ">
+                <h1 className="block mb-4 font-[Poppins] text-white text-[60px] font-semibold border-b-[1px] border-[#f5dfa1] ">
                   About me
                 </h1>
                 <p className="mb-[40px] font-[Poppins] text-white">
