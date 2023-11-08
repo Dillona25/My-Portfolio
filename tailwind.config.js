@@ -25,5 +25,5 @@ export default {
       LinkedIn: "url('../src/assets/LinkedIn.svg')",
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

@@ -15,7 +15,7 @@ const ProjectTwo = () => {
             src={Us}
           ></img>
           <div className=" flex justify-between align-middle pt-[10px] pl-[10px] pr-[10px]">
-            <h1 className="font-[Poppins] text-[20px] font-semibold mr-[10px] self-center">
+            <h1 className="font-[Poppins] text-[20px] text-black font-semibold mr-[10px] self-center">
               Around The Us{" "}
             </h1>
             <img className="h-[45px] w-[45px]" src={HTML}></img>
@@ -24,7 +24,7 @@ const ProjectTwo = () => {
             <img className="h-[45px] w-[45px]" src={NODE}></img>
           </div>
           <div className="flex gap-[10px] p-[10px]">
-            <button className="group relative inline-block overflow-hidden bg-[#9b9b84] py-[5px] px-[40px] rounded-[50px] font-[Poppins] hover:opacity-80 hover:scale-105 ease-in-out duration-[.5s]">
+            <button className="text-black group relative inline-block overflow-hidden bg-[#9b9b84] py-[5px] px-[40px] rounded-[50px] font-[Poppins] hover:opacity-80 hover:scale-105 ease-in-out duration-[.5s]">
               Demo
             </button>
             <button className="bg-black py-[5px] px-[40px] rounded-[50px] font-[Poppins] text-white hover:opacity-80 hover:scale-105 ease-in-out duration-[.5s]">
