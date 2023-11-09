@@ -5,7 +5,7 @@ import Image3 from "../images/Image3.png";
 const About = ({ openModal }) => {
   return (
     <>
-      <section className="overflow-hidden bg-[#363636] pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-[#32b2b2b] dark:bg-dark">
+      <section className="overflow-hidden bg-[#2b2b2b] pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-[#32b2b2b] dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">

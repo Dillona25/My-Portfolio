@@ -21,12 +21,12 @@ function App() {
     <div className="bg-[#2b2b2b] max-w-[2000px] m-auto scroll-smooth">
       <Nav openModal={openModal} />
       <Hero />
-      <About openModal={openModal} />
       {modal === "create" && <ContactModal closeModal={closeModal} />}
       <Projects />
+      <About openModal={openModal} />
       <Footer />
     </div>
   );
 }
-
+``;
 export default App;
