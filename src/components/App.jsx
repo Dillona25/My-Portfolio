@@ -1,8 +1,8 @@
 import Nav from "../components/Nav.jsx";
 import Hero from "./Hero.jsx";
 import Projects from "./Projects.jsx";
-// import About from "./About.jsx";
-// import ContactModal from "./ContactModal.jsx";
+import About from "./About.jsx";
+import ContactModal from "./ContactModal.jsx";
 import Footer from "./Footer.jsx";
 import { useState } from "react";
 
@@ -21,9 +21,9 @@ function App() {
     <div className="bg-[#2b2b2b] max-w-[2000px] m-auto scroll-smooth">
       <Nav openModal={openModal} />
       <Hero />
-      {/* {modal === "create" && <ContactModal closeModal={closeModal} />} */}
+      {modal === "create" && <ContactModal closeModal={closeModal} />}
       <Projects />
-      {/* <About openModal={openModal} /> */}
+      <About openModal={openModal} />
       <Footer />
     </div>
   );
