@@ -1,6 +1,6 @@
 import Nav from "../components/Nav.jsx";
 import Hero from "./Hero.jsx";
-import Projects from "./Projects.jsx";
+import Projects from "../components/Projects/Projects.jsx";
 import About from "./About.jsx";
 import ContactModal from "./ContactModal.jsx";
 import Footer from "./Footer.jsx";
@@ -23,7 +23,7 @@ function App() {
       <Hero />
       {modal === "create" && <ContactModal closeModal={closeModal} />}
       <Projects />
-      <About openModal={openModal} />
+      <About />
       <Footer />
     </div>
   );
