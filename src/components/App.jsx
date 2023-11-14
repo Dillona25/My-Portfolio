@@ -23,7 +23,7 @@ function App() {
       <Hero />
       {modal === "create" && <ContactModal closeModal={closeModal} />}
       <Projects />
-      <About />
+      <About openModal={openModal} />
       <Footer />
     </div>
   );

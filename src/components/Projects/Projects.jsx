@@ -1,6 +1,9 @@
 import AroundTheUs from "./AroundTheUs.jsx";
 import WhatToWear from "./WhatToWear.jsx";
 import SimplyDoIt from "./SimplyDoIt.jsx";
+import TripleTenLibrary from "./Library.jsx";
+import FlightChecker from "./FlightChecker.jsx";
+import MyPortfolio from "./Portfolio.jsx";
 import { useState } from "react";
 
 const Projects = () => {
@@ -19,9 +22,12 @@ const Projects = () => {
           onClick={() => handleProject("all")}
           className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
         >
-          All Projects
+          Featured
         </button>
-        <button className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]">
+        <button
+          onClick={() => handleProject("HTML/CSS")}
+          className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
+        >
           HTML/CSS
         </button>
         <button
@@ -41,6 +47,9 @@ const Projects = () => {
         <AroundTheUs category="JavaScript" showCard={showCard} />
         <WhatToWear category="React" showCard={showCard} />
         <SimplyDoIt category="React" showCard={showCard} />
+        <TripleTenLibrary category="HTML/CSS" showCard={showCard} />
+        <FlightChecker category="JavaScript" showCard={showCard} />
+        <MyPortfolio category="React" showCard={showCard} />
       </div>
     </div>
   );
