@@ -4,12 +4,12 @@ import Image2 from "../images/Image2.png";
 
 const About = ({ openModal }) => {
   return (
-    <div className="px-[70px] py-[100px] w-full">
-      <h1 className="pb-[10px] font-[Poppins] text-[50px] text-white font-semibold border-b-[2px] border-white border-opacity-20">
+    <div className="px-[30px] md:px-[70px] py-[100px] w-full">
+      <h1 className="pb-[10px] font-[Poppins] text-[40px] mb:text-[50px] text-white font-semibold border-b-[2px] border-white border-opacity-20">
         About me
       </h1>
-      <div className="flex justify-between gap-[40px] mt-[50px]">
-        <div className="flex flex-col gap-[20px] justify-center max-w-[50%] h-[750px] bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
+      <div className="flex flex-col mb:flex-row justify-between gap-[40px] mt-[50px]">
+        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-[750px] bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
           <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
             <div className="px-[15px]">
               <h1 className="font-[Poppins] mb-[20px] text-[30px] pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
@@ -66,7 +66,7 @@ const About = ({ openModal }) => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-[20px] align-center max-w-[50%] h-[750px] rounded-xl">
+        <div className="flex mb:flex-col gap-[20px] align-center w-full mb:max-w-[50%] h-[750px] rounded-xl">
           <div className="flex flex-col justify-between h-[750px] rounded-xl">
             <div className="flex m-auto mb-0 mt-0 gap-[30px] border-[1px] border-white rounded-[25%] p-[5px] w-[250px]">
               <img
