@@ -28,7 +28,7 @@ const SimplyDoIt = ({ showCard, category }) => {
       </div>
       <div className="flex flex-col justify-between h-[330px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
-          <h1 className="font-[Poppins] font-semibold text-black text-[25px]">
+          <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
             Simply Do It
           </h1>
           <img src={React} className="h-[35px] w-[35px] self-center"></img>
@@ -36,10 +36,6 @@ const SimplyDoIt = ({ showCard, category }) => {
           <img src={Tailwind} className="h-[35px] w-[35px] self-center"></img>
         </div>
         <p className="font-[Poppins] text-black text-[15px]">
-          <span className="font-[Poppins] text-[#ff5c5c] text-[15px]">
-            In progress
-          </span>
-          <br />
           Simply Do it is an app made soley for mobile devices. The app provides
           the user with a clean experience and allows them to plan their day.
           The user is able to add tasks, edit them, delete them and of course

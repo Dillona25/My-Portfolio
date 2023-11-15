@@ -15,13 +15,13 @@ const FlightChecker = ({ showCard, category }) => {
       ></img>
       <div className="flex flex-col gap-[20px] h-[330px] justify-between w-full bg-white mt-[-50px] p-[10px] rounded-lg">
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
-          <h1 className="font-[Poppins] font-semibold text-black text-[25px]">
+          <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
             Flight Checker
           </h1>
           <img src={Tailwind} className="h-[35px] w-[35px] self-center"></img>
           <img src={JS} className="h-[35px] w-[35px] self-center"></img>
         </div>
-        <p className="font-[Poppins] text-black text-[15px]">
+        <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           Flight Checker is a fully responsive website that allows users to
           track flights! When the user eneters their country and aiport they can
           then search both arriving and departing flights. They will be greeted

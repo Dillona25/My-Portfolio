@@ -17,7 +17,7 @@ const WhatToWear = ({ showCard, category }) => {
       ></img>
       <div className="flex flex-col gap-[20px] justify-between h-[330px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
-          <h1 className="font-[Poppins] font-semibold text-black text-[25px]">
+          <h1 className="font-[Poppins] font-semibold text-ellipsis overflow-hidden whitespace-nowrap text-black text-[20px] md:text-[25px]">
             What To Wear
           </h1>
           <img src={HTML} className="h-[35px] w-[35px] self-center"></img>
@@ -25,7 +25,7 @@ const WhatToWear = ({ showCard, category }) => {
           <img src={JS} className="h-[35px] w-[35px] self-center"></img>
           <img src={React} className="h-[35px] w-[35px] self-center"></img>
         </div>
-        <p className="font-[Poppins] text-black text-[15px]">
+        <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           What to wear is an extremely user friendly app with a simple and clean
           design.The app allows users to make a profile by editing their name,
           and avatar. The user can also add their location and based on their

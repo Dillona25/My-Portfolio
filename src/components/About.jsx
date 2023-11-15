@@ -4,25 +4,25 @@ import Image2 from "../images/Image2.png";
 
 const About = ({ openModal }) => {
   return (
-    <div className="px-[30px] md:px-[70px] py-[100px] w-full">
-      <h1 className="pb-[10px] font-[Poppins] text-[40px] mb:text-[50px] text-white font-semibold border-b-[2px] border-white border-opacity-20">
+    <div id="about" className="px-[30px] md:px-[70px] py-[100px] w-full">
+      <h1 className="pb-[10px] font-[Poppins] text-[40px] md:text-[50px] text-white font-semibold border-b-[2px] border-white border-opacity-20">
         About me
       </h1>
-      <div className="flex flex-col mb:flex-row justify-between gap-[40px] mt-[50px]">
-        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-[750px] bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
+      <div className="flex flex-col md:flex-row justify-between gap-[40px] mt-[50px]">
+        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-[fit] md:h-[750px] bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
           <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
             <div className="px-[15px]">
-              <h1 className="font-[Poppins] mb-[20px] text-[30px] pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
+              <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] md:text-[30px]  pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
                 Education
               </h1>
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
               <time className="font-[Poppins] text-gray-400 text-[15px]">
                 June-2023 | Current
               </time>
-              <h2 className="font-[Poppins] text-white text-[18px] mt-[10px] mb-[10px]">
+              <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
                 TripleTen Software Engineering Bootcamp
               </h2>
-              <p className="font-[Poppins] text-gray-400 text-[15px]">
+              <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
                 At TripleTen I have become very experience in several front-end
                 stacks as well as back-end stacks. With over 750+ hours of
                 course work and multiple projects, TripleTen has provided me the
@@ -32,10 +32,10 @@ const About = ({ openModal }) => {
               <time className="font-[Poppins] text-gray-400 text-[15px]">
                 August-2021 | August-2023
               </time>
-              <h2 className="font-[Poppins] text-white text-[18px] mt-[10px] mb-[10px]">
+              <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
                 Northeast Community College | Associates in accounting
               </h2>
-              <p className="font-[Poppins] text-gray-400 text-[15px]">
+              <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
                 During my time at Northeast studying accounting I gained
                 extensive knowledge but more importantly developed work field
                 skills for my career. I graduated with a 3.8 GPA making the
@@ -43,17 +43,17 @@ const About = ({ openModal }) => {
               </p>
             </div>
             <div className="px-[15px]">
-              <h1 className="font-[Poppins] mb-[20px] text-[30px] pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
+              <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
                 Experience
               </h1>
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
               <time className="font-[Poppins] text-gray-400 text-[15px]">
                 April 2022 | current
               </time>
-              <h2 className="font-[Poppins] text-white text-[18px] mt-[10px] mb-[10px]">
+              <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
                 ALLO Communications | Fiber Splice Designer
               </h2>
-              <p className="font-[Poppins] text-gray-400 text-[15px]">
+              <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
                 Here at ALLO as a splice designer I have a substancial amout of
                 experience using excel, building and creating efficient and
                 effective data gathering spreadsheets. I am responsible for
@@ -66,15 +66,15 @@ const About = ({ openModal }) => {
           </div>
         </div>
 
-        <div className="flex mb:flex-col gap-[20px] align-center w-full mb:max-w-[50%] h-[750px] rounded-xl">
+        <div className="flex mb:flex-col gap-[20px] align-center w-full md:max-w-[50%] h-[750px] rounded-xl">
           <div className="flex flex-col justify-between h-[750px] rounded-xl">
-            <div className="flex m-auto mb-0 mt-0 gap-[30px] border-[1px] border-white rounded-[25%] p-[5px] w-[250px]">
+            <div className="flex m-auto mb-0 mt-0 gap-[30px] border-[1px] border-white rounded-[25%] p-[5px] w-[175px] md:w-[250px]">
               <img
                 src={Image1}
-                className="h-fit w-[250px] rounded-[25%] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+                className="h-fit w-[175px] md:w-[250px] rounded-[25%] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
               ></img>
             </div>
-            <p className="font-[Poppins] text-[15px] text-white text-center">
+            <p className="font-[Poppins] text-[14px] xs:text-[15px] text-white text-center">
               My Name is Dillon Arnold and Im 21 years old. Born in raised in
               the Portland, Oregon Area but I now currently live in Nebraska
               with my two mini Aussies and wife! On my free time you can find me

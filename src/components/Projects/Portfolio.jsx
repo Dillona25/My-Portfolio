@@ -15,13 +15,13 @@ const MyPortfolio = ({ showCard, category }) => {
       ></img>
       <div className="flex flex-col gap-[20px] h-[330px] justify-between w-full bg-white mt-[-50px] p-[10px] rounded-lg">
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
-          <h1 className="font-[Poppins] font-semibold text-black text-[25px]">
+          <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
             My Portfolio
           </h1>
           <img src={React} className="h-[35px] w-[35px] self-center"></img>
           <img src={Tailwind} className="h-[35px] w-[35px] self-center"></img>
         </div>
-        <p className="font-[Poppins] text-black text-[15px]">
+        <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           The site you are browsing right now! Built with React and Tailwind CSS
           my portfolio website allows you to get to know me both as a developer
           and a regular human! You can also press "contact" in both the Nav and

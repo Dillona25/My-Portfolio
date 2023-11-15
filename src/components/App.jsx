@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <div className="bg-[#2b2b2b] max-w-[2000px] m-auto scroll-smooth">
+    <div className="bg-[#2b2b2b] max-w-[2000px] m-auto">
       <Nav openModal={openModal} />
       <Hero />
       {modal === "create" && <ContactModal closeModal={closeModal} />}

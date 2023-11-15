@@ -17,13 +17,13 @@ const TripleTenLibrary = ({ showCard, category }) => {
       </div>
       <div className="flex flex-col justify-between h-[330px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
-          <h1 className="font-[Poppins] font-semibold text-black text-[25px]">
+          <h1 className="font-[Poppins] font-semibold text-black text-[20px md:text-[25px]">
             TripleTen Library
           </h1>
           <img src={HTML} className="h-[35px] w-[35px] self-center"></img>
           <img src={CSS} className="h-[35px] w-[35px] self-center"></img>
         </div>
-        <p className="font-[Poppins] text-black text-[15px]">
+        <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           A super simple projecy crafted with HTML and CSS. This landing page is
           about a fictional library! Users have multiple different sections they
           can navigate to to learn about the respected contents. From a reader
