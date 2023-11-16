@@ -12,7 +12,7 @@ const SimplyDoIt = ({ showCard, category }) => {
         showCard === "all" || showCard === category ? "block" : "hidden"
       }`}
     >
-      <div className="flex gap-[20px] justify-between">
+      <div className="flex gap-[20px] justify-center lg:justify-between">
         <img
           src={Simply2}
           className="rounded-lg w-[100px] top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
@@ -23,7 +23,7 @@ const SimplyDoIt = ({ showCard, category }) => {
         ></img>
         <img
           src={Simply3}
-          className="rounded-lg w-[100px] top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+          className="hidden justify-center lg:flex rounded-lg w-[100px] top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
         ></img>
       </div>
       <div className="flex flex-col justify-between h-[330px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
@@ -43,13 +43,13 @@ const SimplyDoIt = ({ showCard, category }) => {
           account to personalize the website to their liking!
         </p>
         <div className="flex gap-[20px]">
-          <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-            Live site
-          </button>
           <a href="https://github.com/Dillona25/To-Do-App-React">
             <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
               Code
             </button>{" "}
+            <button className="px-[30px] py-[5px] bg-white w-fit rounded-md text-[#f55] font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
+              In Progress
+            </button>
           </a>
         </div>
       </div>

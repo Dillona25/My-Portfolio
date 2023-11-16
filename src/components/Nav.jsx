@@ -3,11 +3,22 @@ import NavDropDown from "./NavDropDown";
 
 const Nav = ({ openModal }) => {
   return (
-    <div className="bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[30px] md:px-[70px] flex justify-between">
-      <h1 className="sm:block font-[Poppins] text-[30px] font-semibold text-white">
-        Logo
-      </h1>
-      <NavDropDown openModal={openModal} className="block md:hidden" />
+    <div className="bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[30px] lg:px-[70px] flex justify-between">
+      <div className="flex gap-[50px]">
+        <a
+          href="https://www.linkedin.com/in/dillon-arnold-352782275/"
+          className="p-2px border-white border-[1px] rounded-[50%] flex hover:scale-110 ease-out duration-[.5s]"
+        >
+          <button className="bg-LinkedIn h-[48px] w-[48px]"></button>
+        </a>
+        <a
+          href="https://github.com/Dillona25"
+          className="p-2px border-white border-[1px] rounded-[50%] flex hover:scale-110 ease-out duration-[.5s]"
+        >
+          <button className="bg-Github h-[48px] w-[48px]"></button>
+        </a>
+      </div>
+      <NavDropDown openModal={openModal} className="block lg:hidden" />
       <ul className="hidden lg:flex gap-[50px]">
         <a
           href="#about"
@@ -28,9 +39,6 @@ const Nav = ({ openModal }) => {
         >
           <li className="text-white font-[Poppins] text-[18px]">Projects</li>
         </a>
-        <span className="p-2px border-white border-[1px] rounded-[50%] flex hover:scale-110 ease-out duration-[.5s]">
-          <button className="bg-LinkedIn h-[48px] w-[48px]"></button>
-        </span>
       </ul>
     </div>
   );

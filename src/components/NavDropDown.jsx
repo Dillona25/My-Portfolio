@@ -12,10 +12,14 @@ const NavDropDown = ({ openModal }) => {
         className="dropdown-content z-[1] menu p-2 shadow bg-white rounded-box m-1 w-[100px]"
       >
         <li>
-          <a className="font-[Poppins] text-black">Projects</a>
+          <a href="#projects" className="font-[Poppins] text-black">
+            Projects
+          </a>
         </li>
         <li>
-          <a className="font-[Poppins] text-black">About</a>
+          <a href="#about" className="font-[Poppins] text-black">
+            About
+          </a>
         </li>
         <li>
           <a onClick={openModal} className="font-[Poppins] text-black">
