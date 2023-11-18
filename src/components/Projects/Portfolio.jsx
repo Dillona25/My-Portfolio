@@ -5,7 +5,7 @@ import Portfolio from "../../images/Portfolio.png";
 const MyPortfolio = ({ showCard, category }) => {
   return (
     <div
-      className={`flex flex-col gap-[10px] bg-[#2b2b2b] max-w-[400px] rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[10px] overflow-visible ${
+      className={`flex flex-col mb-[100px] gap-[10px] bg-[#2b2b2b] max-w-[400px] h-fit rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[10px] overflow-visible ${
         showCard === category ? "block" : "hidden"
       }`}
     >
@@ -33,9 +33,6 @@ const MyPortfolio = ({ showCard, category }) => {
             <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
               Code
             </button>{" "}
-            <button className="px-[30px] py-[5px] bg-white w-fit rounded-md text-[#000] font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-              You're here already :)
-            </button>
           </a>
         </div>
       </div>

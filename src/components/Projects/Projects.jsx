@@ -19,7 +19,7 @@ const Projects = () => {
       id="projects"
       className="pt-[100px] pb-[100px] bg-[#363636] px-[30px] md:px-[70px]"
     >
-      <div className="flex gap-[20px] border-b-[2px] border-white border-opacity-20">
+      <div className="flex justify-between gap-[20px] border-b-[2px] border-white border-opacity-20">
         <h1 className="pb-[10px] font-[Poppins] text-[30px] md:text-[50px] text-white font-semibold">
           My Projects
         </h1>
@@ -48,10 +48,10 @@ const Projects = () => {
           onClick={() => handleProject("React")}
           className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
         >
-          Regit act
+          React
         </button>
       </div>
-      <div className="mt-[100px] flex flex-col md:justify-center md:flex-row gap-[100px] md:gap-[20px]">
+      <div className="mt-[100px] flex flex-col md:justify-center md:flex-row md:gap-[20px]">
         <Zoom>
           <AroundTheUs category="JavaScript" showCard={showCard} />
         </Zoom>
