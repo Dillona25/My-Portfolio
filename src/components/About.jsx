@@ -28,7 +28,7 @@ const About = ({ openModal }) => {
                   TripleTen Software Engineering Bootcamp
                 </h2>
                 <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
-                  At TripleTen I have become very experience in several
+                  At TripleTen I have become very experienced in several
                   front-end stacks as well as back-end stacks. With over 750+
                   hours of course work and multiple projects, TripleTen has
                   provided me the knowledge to be a successful full-stack
@@ -74,15 +74,15 @@ const About = ({ openModal }) => {
         </div>
 
         <div className="flex mb:flex-col gap-[20px] align-center w-full md:max-w-[50%] h-[750px] rounded-xl">
-          <div className="flex flex-col justify-between h-fit rounded-xl bg-[#363636] p-[20px] gap-[20px]">
+          <div className="flex flex-col justify-between h-fit md:h-[750px] rounded-xl bg-[#363636] p-[20px] gap-[20px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
             <div className="flex m-auto mb-0 mt-0 gap-[30px] border-[1px] border-white rounded-[25%] p-[5px] w-[175px] md:w-[250px]">
               <img
                 src={Image1}
-                className="h-[275px] w-[175px] md:h-fit md:w-[250px] rounded-[25%] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+                className="h-[250px] w-[175px] md:h-fit md:w-[250px] rounded-[25%] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
               ></img>
             </div>
             <p className="font-[Poppins] text-[14px] xs:text-[15px] text-white text-center">
-              My Name is Dillon Arnold and Im 21 years old. Born in raised in
+              My Name is Dillon Arnold and Im 21 years old. Born and raised in
               the Portland, Oregon Area but I now currently live in Nebraska
               with my two mini Aussies and wife! On my free time you can find me
               either golfing, coding, golfing or coding. Alongside my passion

@@ -1,5 +1,6 @@
 import Typewriter from "typewriter-effect";
 import Portrait from "../images/Portrait.png";
+import Portraitm from "../assets/Portrait mobile.png";
 import css from "../assets/CSS.svg";
 import HTML from "../assets/HTML.svg";
 import JS from "../assets/JS.svg";
@@ -10,8 +11,14 @@ import Vite from "../assets/Vite.svg";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between max-w-[100%] mt-[100px] mb-[75px] lg:mb-[150px] mx-[30px] lg:mx-[70px]">
+    <div className="flex flex-col lg:flex-row lg:justify-between max-w-[100%] mt-[75px] mb-[75px] lg:mb-[150px] mx-[30px] lg:mx-[70px]">
       <div className="flex flex-col text-center lg:w-[850px] lg:text-start">
+        <div className="md:hidden w-[200px] border-white border-[1px] mx-auto mb-[30px] rounded-[10px] p-[5px] shadow-[rgba(255,_255,_255,_0.50)_0px_3px_8px]">
+          <img
+            className="md:hidden w-[200px] rounded-[10px]"
+            src={Portraitm}
+          ></img>
+        </div>
         <h1 className="font-[Poppins] text-white text-[45px] xs:text-[50px] lg:text-[70px] font-semibold leading-[1.2]">
           Hello 👋
           <br />
