@@ -17,7 +17,7 @@ const Hero = () => {
           <br />
           Im Dillon
           <br />{" "}
-          <span className="font-[Poppins] text-[#f5dfa1] text-[20px] xs:text-[30px] lg:text-[70px] font-semibold">
+          <span className="font-[Poppins] text-[#f5dfa1] text-[20px] md:text-[30px] lg:text-[70px] font-semibold">
             <Typewriter
               options={{
                 autoStart: true,
@@ -35,9 +35,9 @@ const Hero = () => {
         <p className="font-[Poppins] text-white text-center lg:text-start lg:max-w-[600px] text-[15px] lg:text-[20px] mt-[12px]">
           I design websites and applications that are both appealing and user
           friendly! I have experience with front-end stacks such as HTML, CSS 3
-          as well as Tailwind, JavaScript and React.js. I also have experience
-          in backend stacks such as Node.js, Express.js, MongoDB and Google
-          Cloud. Stay a minute why dont ya, theres still more to see!
+          as well as Tailwind, JavaScript and React.js. I will also soon have
+          experience in backend stacks such as Node.js, Express.js, MongoDB and
+          Google Cloud. Stay a minute why dont ya, theres still more to see!
         </p>
         <div className="flex justify-center lg:justify-start mt-[20px] w-full lg:ml-[-10px] lg:jusify-center">
           <img src={HTML} className="w-[45px] xs:w-[50px] lg:w-[90px]"></img>

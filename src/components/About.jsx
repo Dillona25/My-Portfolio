@@ -85,13 +85,14 @@ const About = ({ openModal }) => {
               either golfing, coding, golfing or coding. Alongside my passion
               for software development.
               <br />
-              Im a graduate from TripleTen's software engineering bootcamp where
-              I found my biggest passion since flying: Software development. Ive
-              always been someone who loves to learn, and challenege myself and
-              needless to say software developmet provides just that. I have a
-              career objective to leverage my dedication, passion, and skills in
-              a dynamic environment where I can contribute to significant
-              growth, ultimately making an impact on a team’s success!
+              Im a current student in TripleTen's software engineering bootcamp
+              where I found my biggest passion since flying planes: Software
+              development. Ive always been someone who loves to learn, and
+              challenege myself and needless to say software developmet provides
+              just that. I have a career objective to leverage my dedication,
+              passion, and skills in a dynamic environment where I can
+              contribute to significant growth, ultimately making an impact on a
+              team’s success!
             </p>
             <button
               onClick={openModal}
