@@ -1,4 +1,5 @@
 import LinkedIn from "../assets/LinkedIn.svg";
+import { Link } from "react-scroll";
 import NavDropDown from "./NavDropDown";
 
 const Nav = ({ openModal }) => {
@@ -7,25 +8,29 @@ const Nav = ({ openModal }) => {
       <div className="flex gap-[50px]">
         <a
           href="https://www.linkedin.com/in/dillon-arnold-352782275/"
-          className="p-2px border-white border-[1px] rounded-[50%] flex hover:scale-110 ease-out duration-[.5s]"
+          className="h-fit p-2px border-white border-[1px] rounded-[50%] flex hover:scale-110 ease-out duration-[.5s]"
         >
           <button className="bg-LinkedIn h-[48px] w-[48px]"></button>
         </a>
         <a
           href="https://github.com/Dillona25"
-          className="p-2px border-white border-[1px] rounded-[50%] flex hover:scale-110 ease-out duration-[.5s]"
+          className=" h-fit p-2px border-white border-[1px] rounded-[50%] flex hover:scale-110 ease-out duration-[.5s]"
         >
           <button className="bg-Github h-[48px] w-[48px]"></button>
         </a>
       </div>
       <NavDropDown openModal={openModal} className="block lg:hidden" />
       <ul className="hidden lg:flex gap-[50px]">
-        <a
-          href="#about"
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={190}
+          duration={500}
           className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
         >
           <li className="text-white font-[Poppins] text-[18px]">About me</li>
-        </a>
+        </Link>
         <li
           onClick={openModal}
           className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
@@ -33,12 +38,16 @@ const Nav = ({ openModal }) => {
           Contact
         </li>
 
-        <a
-          href="#projects"
+        <Link
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={105}
+          duration={500}
           className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
         >
           <li className="text-white font-[Poppins] text-[18px]">Projects</li>
-        </a>
+        </Link>
       </ul>
     </div>
   );

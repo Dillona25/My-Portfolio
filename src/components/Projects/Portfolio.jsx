@@ -29,15 +29,13 @@ const MyPortfolio = ({ showCard, category }) => {
           me!
         </p>
         <div className="flex gap-[20px]">
-          <a href="https://dillona25.github.io/se_project_aroundtheus/">
-            <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-              Live site
-            </button>{" "}
-          </a>
           <a href="https://github.com/Dillona25/se_project_aroundtheus">
             <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
               Code
             </button>{" "}
+            <button className="px-[30px] py-[5px] bg-white w-fit rounded-md text-[#000] font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
+              You're here already :)
+            </button>
           </a>
         </div>
       </div>

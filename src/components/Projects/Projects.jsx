@@ -51,7 +51,7 @@ const Projects = () => {
           React
         </button>
       </div>
-      <div className="mt-[100px] flex flex-col items-center md:justify-center md:flex-row gap-[100px] md:gap-[20px]">
+      <div className="mt-[100px] flex flex-col md:justify-center md:flex-row gap-[100px] md:gap-[20px]">
         <Zoom>
           <AroundTheUs category="JavaScript" showCard={showCard} />
         </Zoom>

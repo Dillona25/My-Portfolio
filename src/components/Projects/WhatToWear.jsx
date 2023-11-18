@@ -33,13 +33,13 @@ const WhatToWear = ({ showCard, category }) => {
           their closet. The project was made using React.js!
         </p>
         <div className="flex gap-[20px]">
-          <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-            Live site
-          </button>
           <a href="https://github.com/Dillona25/se_project_react">
             <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
               Code
             </button>{" "}
+            <button className="px-[30px] py-[5px] bg-white w-fit rounded-md text-[#f55] font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
+              In Progress
+            </button>
           </a>
         </div>
       </div>
