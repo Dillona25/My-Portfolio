@@ -48,7 +48,7 @@ const Projects = () => {
           onClick={() => handleProject("React")}
           className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
         >
-          React
+          Regit act
         </button>
       </div>
       <div className="mt-[100px] flex flex-col md:justify-center md:flex-row gap-[100px] md:gap-[20px]">
