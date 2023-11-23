@@ -44,7 +44,7 @@ const Hero = () => {
           friendly! I have experience with front-end stacks such as HTML, CSS 3
           as well as Tailwind, JavaScript and React.js. I will also soon have
           experience in backend stacks such as Node.js, Express.js, MongoDB and
-          Google Cloud. Stay a minute why dont ya, theres still more to see!
+          Google Cloud. Stay a minute why dont ya, there's still more to see!
         </p>
         <div className="flex justify-center lg:justify-start mt-[20px] w-full lg:ml-[-10px] lg:jusify-center">
           <img src={HTML} className="w-[45px] xs:w-[50px] lg:w-[90px]"></img>
