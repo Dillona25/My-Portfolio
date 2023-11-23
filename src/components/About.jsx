@@ -1,7 +1,6 @@
 import React from "react";
 import Image1 from "../images/Image1.png";
 import Image2 from "../images/Image2.png";
-import Bounce from "react-reveal/Bounce";
 
 const About = ({ openModal }) => {
   return (
@@ -15,61 +14,58 @@ const About = ({ openModal }) => {
       <div className="flex flex-col md:flex-row justify-between gap-[40px] mt-[50px]">
         <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-[fit] md:h-[750px] bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
           <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
-            <Bounce>
-              <div className="px-[15px]">
-                <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] md:text-[30px]  pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
-                  Education
-                </h1>
-                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
-                <time className="font-[Poppins] text-gray-400 text-[15px]">
-                  June-2023 | Current
-                </time>
-                <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
-                  TripleTen Software Engineering Bootcamp
-                </h2>
-                <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
-                  At TripleTen I have become very experienced in several
-                  front-end stacks as well as back-end stacks. With over 750+
-                  hours of course work and multiple projects, TripleTen has
-                  provided me the knowledge to be a successful full-stack
-                  developer.
-                </p>
-                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
-                <time className="font-[Poppins] text-gray-400 text-[15px]">
-                  August-2021 | August-2023
-                </time>
-                <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
-                  Northeast Community College | Associates in accounting
-                </h2>
-                <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
-                  During my time at Northeast studying accounting I gained
-                  extensive knowledge but more importantly developed work field
-                  skills for my career. I graduated with a 3.8 GPA making the
-                  presidents honor list, and the schools honor roll, both years.
-                </p>
-              </div>
-              <div className="px-[15px]">
-                <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
-                  Experience
-                </h1>
-                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
-                <time className="font-[Poppins] text-gray-400 text-[15px]">
-                  April 2022 | current
-                </time>
-                <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
-                  ALLO Communications | Fiber Splice Designer
-                </h2>
-                <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
-                  Here at ALLO as a splice designer I have a substancial amout
-                  of experience using excel, building and creating efficient and
-                  effective data gathering spreadsheets. I am responsible for
-                  producing a design product to ALLOs construction teams as they
-                  begin to build markets in CO, AZ, and NE. ALLO has provided me
-                  substancial development of soft skills, and behavior skills
-                  that will go a long way in my career.
-                </p>
-              </div>
-            </Bounce>
+            <div className="px-[15px]">
+              <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] md:text-[30px]  pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
+                Education
+              </h1>
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
+              <time className="font-[Poppins] text-gray-400 text-[15px]">
+                June-2023 | Current
+              </time>
+              <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
+                TripleTen Software Engineering Bootcamp
+              </h2>
+              <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
+                At TripleTen I have become very experienced in several front-end
+                stacks as well as back-end stacks. With over 750+ hours of
+                course work and multiple projects, TripleTen has provided me the
+                knowledge to be a successful full-stack developer.
+              </p>
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
+              <time className="font-[Poppins] text-gray-400 text-[15px]">
+                August-2021 | August-2023
+              </time>
+              <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
+                Northeast Community College | Associates in accounting
+              </h2>
+              <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
+                During my time at Northeast studying accounting I gained
+                extensive knowledge but more importantly developed work field
+                skills for my career. I graduated with a 3.8 GPA making the
+                presidents honor list, and the schools honor roll, both years.
+              </p>
+            </div>
+            <div className="px-[15px]">
+              <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
+                Experience
+              </h1>
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
+              <time className="font-[Poppins] text-gray-400 text-[15px]">
+                April 2022 | current
+              </time>
+              <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
+                ALLO Communications | Fiber Splice Designer
+              </h2>
+              <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
+                Here at ALLO as a splice designer I have a substancial amout of
+                experience using excel, building and creating efficient and
+                effective data gathering spreadsheets. I am responsible for
+                producing a design product to ALLOs construction teams as they
+                begin to build markets in CO, AZ, and NE. ALLO has provided me
+                substancial development of soft skills, and behavior skills that
+                will go a long way in my career.
+              </p>
+            </div>
           </div>
         </div>
 

@@ -6,7 +6,6 @@ import FlightChecker from "./FlightChecker.jsx";
 import MyPortfolio from "./Portfolio.jsx";
 import ProjectsFilter from "./ProjectsFilter.jsx";
 import { useState } from "react";
-import Zoom from "react-reveal/Zoom";
 
 const Projects = () => {
   const [showCard, setShowCard] = useState("all");
@@ -64,13 +63,9 @@ const Projects = () => {
         </button>
       </div>
       <div className="mt-[100px] flex flex-col md:justify-center md:flex-row md:gap-[20px]">
-        <Zoom>
-          <AroundTheUs category="JavaScript" showCard={showCard} />
-        </Zoom>
+        <AroundTheUs category="JavaScript" showCard={showCard} />
         <WhatToWear category="React" showCard={showCard} />
-        <Zoom>
-          <SimplyDoIt category="React" showCard={showCard} />
-        </Zoom>
+        <SimplyDoIt category="React" showCard={showCard} />
         <TripleTenLibrary category="HTML/CSS" showCard={showCard} />
         <FlightChecker category="JavaScript" showCard={showCard} />
         <MyPortfolio category="React" showCard={showCard} />
