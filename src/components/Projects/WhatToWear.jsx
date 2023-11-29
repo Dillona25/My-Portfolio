@@ -30,16 +30,22 @@ const WhatToWear = ({ showCard, category }) => {
           design.The app allows users to make a profile by editing their name,
           and avatar. The user can also add their location and based on their
           location, they will be recommened clothes that they have uploaded to
-          their closet. The project was made using React.js!
+          their closet. The project was made using React.js!{" "}
+          <span className="font-[Poppins] font-semibold text-[#fc6161] text-[14px] xs:text-[15px]">
+            {" "}
+            Backend coming soon for card render!
+          </span>
         </p>
         <div className="flex gap-[20px]">
           <a href="https://github.com/Dillona25/se_project_react">
             <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
               Code
             </button>{" "}
-            <button className="px-[30px] py-[5px] bg-white w-fit rounded-md text-[#f55] font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-              In Progress
-            </button>
+          </a>
+          <a href="https://dillona25.github.io/WhatToWear/#/Profile">
+            <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
+              Live site
+            </button>{" "}
           </a>
         </div>
       </div>

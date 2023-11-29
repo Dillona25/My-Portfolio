@@ -64,6 +64,7 @@ const Projects = () => {
       </div>
       <div className="mt-[100px] flex flex-col md:justify-center md:flex-row md:gap-[20px]">
         <AroundTheUs category="JavaScript" showCard={showCard} />
+
         <WhatToWear category="React" showCard={showCard} />
         <SimplyDoIt category="React" showCard={showCard} />
         <TripleTenLibrary category="HTML/CSS" showCard={showCard} />
