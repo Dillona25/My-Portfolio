@@ -1,5 +1,6 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import { motion, spring } from "framer-motion";
 
 const ContactModal = ({ closeModal }) => {
   const form = useRef();
@@ -26,7 +27,12 @@ const ContactModal = ({ closeModal }) => {
   };
   return (
     <div className="position: fixed flex flex-col top-0 bottom-0 right-0 left-0 z-10 bg-black bg-opacity-[70%]">
-      <div className="w-fit position: relative bg-white m-auto p-9 rounded-xl box-border">
+      <motion.div
+        animate={{ scale: 1 }}
+        initial={{ scale: 0 }}
+        transition={{ type: "spring", stiffness: 300, duration: 1 }}
+        className="w-fit position: relative bg-white m-auto p-9 rounded-xl box-border"
+      >
         <button
           onClick={closeModal}
           className="text-black text-[20px] font-semibold posiiton: absolute w-[30px] h-[30px] bg-no-repeat top-3 right-3"
@@ -86,7 +92,7 @@ const ContactModal = ({ closeModal }) => {
             </button>
           </form>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

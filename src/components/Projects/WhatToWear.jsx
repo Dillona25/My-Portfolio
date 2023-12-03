@@ -15,7 +15,7 @@ const WhatToWear = ({ showCard, category }) => {
         src={WTW}
         className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
       ></img>
-      <div className="flex flex-col gap-[20px] justify-between h-[330px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
+      <div className="flex flex-col gap-[20px] justify-between h-fit-content xl:h-[330px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
           <h1 className="font-[Poppins] font-semibold text-ellipsis overflow-hidden whitespace-nowrap text-black text-[20px] md:text-[25px]">
             What To Wear
@@ -30,11 +30,7 @@ const WhatToWear = ({ showCard, category }) => {
           design.The app allows users to make a profile by editing their name,
           and avatar. The user can also add their location and based on their
           location, they will be recommened clothes that they have uploaded to
-          their closet. The project was made using React.js!{" "}
-          <span className="font-[Poppins] font-semibold text-[#fc6161] text-[14px] xs:text-[15px]">
-            {" "}
-            Backend coming soon for card render!
-          </span>
+          their closet. The project was made using React.js!
         </p>
         <div className="flex gap-[20px]">
           <a href="https://github.com/Dillona25/se_project_react">
@@ -42,11 +38,9 @@ const WhatToWear = ({ showCard, category }) => {
               Code
             </button>{" "}
           </a>
-          <a href="https://dillona25.github.io/WhatToWear/#/Profile">
-            <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-              Live site
-            </button>{" "}
-          </a>
+          <p className="py-[5px] bg-white w-fit rounded-md text-[#f55] font-[Poppins]">
+            Adding backend :)
+          </p>
         </div>
       </div>
     </div>

@@ -47,10 +47,10 @@ const SimplyDoIt = ({ showCard, category }) => {
             <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
               Code
             </button>{" "}
-            <button className="px-[30px] py-[5px] bg-white w-fit rounded-md text-[#f55] font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-              In Progress
-            </button>
           </a>
+          <p className="py-[5px] bg-white w-fit rounded-md text-[#f55] font-[Poppins]">
+            In progress!
+          </p>
         </div>
       </div>
     </div>
