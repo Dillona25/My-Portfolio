@@ -15,7 +15,7 @@ const SimplyDoIt = ({ showCard, category }) => {
       <div className="flex gap-[20px] justify-center lg:justify-between">
         <img
           src={Simply2}
-          className="rounded-lg w-[100px] top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+          className="rounded-lg w-[105px] top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
         ></img>
         <img
           src={Simply1}
@@ -36,11 +36,12 @@ const SimplyDoIt = ({ showCard, category }) => {
           <img src={Tailwind} className="h-[35px] w-[35px] self-center"></img>
         </div>
         <p className="font-[Poppins] text-black text-[15px]">
-          Simply Do it is an app made soley for mobile devices. The app provides
-          the user with a clean experience and allows them to plan their day.
-          The user is able to add tasks, edit them, delete them and of course
-          complete them all thanks to React.js. The user is also able to make an
-          account to personalize the website to their liking!
+          Simply Do It was my 2nd side project done completey unguided using
+          react.js, react router and tailwind css. The app allows users to add
+          tasks for their current day, edit those tasks, delete them and of
+          course mark them as complete. The app also allows users to create a
+          profile, edit the name, and add any profile image they desire. While
+          the front-end is done, I am in the process of adding a backend!
         </p>
         <div className="flex gap-[20px]">
           <a href="https://github.com/Dillona25/To-Do-App-React">
@@ -48,8 +49,8 @@ const SimplyDoIt = ({ showCard, category }) => {
               Code
             </button>{" "}
           </a>
-          <p className="py-[5px] bg-white w-fit rounded-md text-[#f55] font-[Poppins]">
-            In progress!
+          <p className="py-[5px] bg-white w-fit rounded-md text-black font-[Poppins]">
+            Adding backend :)
           </p>
         </div>
       </div>

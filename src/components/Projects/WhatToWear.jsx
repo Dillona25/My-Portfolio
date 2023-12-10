@@ -26,11 +26,12 @@ const WhatToWear = ({ showCard, category }) => {
           <img src={React} className="h-[35px] w-[35px] self-center"></img>
         </div>
         <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-          What to wear is an extremely user friendly app with a simple and clean
-          design.The app allows users to make a profile by editing their name,
-          and avatar. The user can also add their location and based on their
-          location, they will be recommened clothes that they have uploaded to
-          their closet. The project was made using React.js!
+          What to wear is a simple and clean website. The app allows users to
+          make a profile by editing their name, and avatar. The user can also
+          add their location and based on their location, they will be
+          recommened clothes that they have uploaded to their closet. The
+          project was made using React.js as a front-end and Node.js for the
+          backend.
         </p>
         <div className="flex gap-[20px]">
           <a href="https://github.com/Dillona25/se_project_react">
@@ -38,7 +39,7 @@ const WhatToWear = ({ showCard, category }) => {
               Code
             </button>{" "}
           </a>
-          <p className="py-[5px] bg-white w-fit rounded-md text-[#f55] font-[Poppins]">
+          <p className="py-[5px] bg-white w-fit rounded-md text-black font-[Poppins]">
             Adding backend :)
           </p>
         </div>
