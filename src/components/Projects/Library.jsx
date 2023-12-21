@@ -12,6 +12,7 @@ const TripleTenLibrary = ({ showCard, category }) => {
       <div className="flex gap-[20px] justify-between">
         <img
           src={Library}
+          alt="Image from project"
           className="rounded-lg w-full top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
         ></img>
       </div>
@@ -20,8 +21,16 @@ const TripleTenLibrary = ({ showCard, category }) => {
           <h1 className="font-[Poppins] font-semibold text-black text-[20px md:text-[25px]">
             TripleTen Library
           </h1>
-          <img src={HTML} className="h-[35px] w-[35px] self-center"></img>
-          <img src={CSS} className="h-[35px] w-[35px] self-center"></img>
+          <img
+            src={HTML}
+            alt="html logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={CSS}
+            alt="CSS logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
         </div>
         <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           A super simple projecy crafted with HTML and CSS. This landing page is

@@ -16,6 +16,7 @@ const Hero = () => {
         <div className="xl:hidden w-[200px] border-white border-[1px] mx-auto mb-[30px] rounded-[10px] p-[5px] shadow-[rgba(255,_255,_255,_0.50)_0px_3px_8px]">
           <img
             className="xl:hidden w-[200px] rounded-[10px]"
+            alt="portrait"
             src={Portraitm}
           ></img>
         </div>
@@ -47,20 +48,42 @@ const Hero = () => {
           Google Cloud. Stay a minute why dont ya, there's still more to see!
         </p>
         <div className="flex justify-center xl:justify-start mt-[20px] w-full xl:ml-[-10px] xl:jusify-center">
-          <img src={HTML} className="w-[45px] xs:w-[50px] xl:w-[90px]"></img>
-          <img src={css} className="w-[45px] xs:w-[50px] xl:w-[90px]"></img>
           <img
-            src={Tailwind}
+            src={HTML}
+            alt="HTML logo"
             className="w-[45px] xs:w-[50px] xl:w-[90px]"
           ></img>
-          <img src={JS} className="w-[45px] xs:w-[50px] xl:w-[90px]"></img>
-          <img src={React} className="w-[45px] xs:w-[50px] xl:w-[90px]"></img>
-          <img src={NODE} className="w-[45px] xs:w-[50px] xl:w-[90px]"></img>
+          <img
+            src={css}
+            alt="css logo"
+            className="w-[45px] xs:w-[50px] xl:w-[90px]"
+          ></img>
+          <img
+            src={Tailwind}
+            alt="taildwind logo"
+            className="w-[45px] xs:w-[50px] xl:w-[90px]"
+          ></img>
+          <img
+            src={JS}
+            alt="javaScript logo"
+            className="w-[45px] xs:w-[50px] xl:w-[90px]"
+          ></img>
+          <img
+            src={React}
+            alt="react.js logo"
+            className="w-[45px] xs:w-[50px] xl:w-[90px]"
+          ></img>
+          <img
+            src={NODE}
+            alt="node.js logo"
+            className="w-[45px] xs:w-[50px] xl:w-[90px]"
+          ></img>
         </div>
       </div>
       <div className="hidden xl:flex bg-white h-[350px] bg-opacity-50 w-[350px] m-auto mt-[200px] xl:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
         <img
           className=" h-[500px] w-[350px] rounded-[10px] position: absolute bottom-0"
+          alt="portrait"
           src={Portrait}
         ></img>
       </div>

@@ -11,6 +11,7 @@ const FlightChecker = ({ showCard, category }) => {
     >
       <img
         src={Flight}
+        alt="Image of project"
         className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
       ></img>
       <div className="flex flex-col gap-[30px] h-fit justify-between w-full bg-white mt-[-50px] p-[10px] rounded-lg">
@@ -18,8 +19,16 @@ const FlightChecker = ({ showCard, category }) => {
           <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
             Flight Checker
           </h1>
-          <img src={Tailwind} className="h-[35px] w-[35px] self-center"></img>
-          <img src={JS} className="h-[35px] w-[35px] self-center"></img>
+          <img
+            src={Tailwind}
+            alt="Tailwind logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={JS}
+            alt="JavaScript logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
         </div>
         <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           Flight Checker is a fully responsive website that allows users to

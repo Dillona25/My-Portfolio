@@ -15,14 +15,17 @@ const SimplyDoIt = ({ showCard, category }) => {
       <div className="flex gap-[20px] justify-center lg:justify-between">
         <img
           src={Simply2}
+          alt="Photo from project"
           className="rounded-lg w-[105px] top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
         ></img>
         <img
           src={Simply1}
+          alt="Photo from project"
           className="rounded-lg w-[100px] top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
         ></img>
         <img
           src={Simply3}
+          alt="Photo from project"
           className="hidden justify-center lg:flex rounded-lg w-[100px] top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
         ></img>
       </div>
@@ -31,9 +34,21 @@ const SimplyDoIt = ({ showCard, category }) => {
           <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
             Simply Do It
           </h1>
-          <img src={React} className="h-[35px] w-[35px] self-center"></img>
-          <img src={JS} className="h-[35px] w-[35px] self-center"></img>
-          <img src={Tailwind} className="h-[35px] w-[35px] self-center"></img>
+          <img
+            src={React}
+            alt="React.js logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={JS}
+            alt="JavaScript logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={Tailwind}
+            alt="Tailwind logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
         </div>
         <p className="font-[Poppins] text-black text-[15px]">
           Simply Do It was my 2nd side project done completey unguided using

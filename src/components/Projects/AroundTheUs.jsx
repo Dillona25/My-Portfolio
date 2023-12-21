@@ -12,6 +12,7 @@ const AroundTheUs = ({ showCard, category }) => {
     >
       <img
         src={US}
+        alt="Photo of project"
         className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
       ></img>
       <div className="flex flex-col gap-[20px] h-[330px] justify-between w-full bg-white mt-[-50px] p-[10px] rounded-lg">
@@ -19,9 +20,21 @@ const AroundTheUs = ({ showCard, category }) => {
           <h1 className="text-ellipsis overflow-hidden whitespace-nowrap font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
             Around the US
           </h1>
-          <img src={HTML} className="h-[35px] w-[35px] self-center"></img>
-          <img src={CSS} className="h-[35px] w-[35px] self-center"></img>
-          <img src={JS} className="h-[35px] w-[35px] self-center"></img>
+          <img
+            src={HTML}
+            alt="html logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={CSS}
+            alt="css logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={JS}
+            alt="JavaScript logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
         </div>
         <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           Around the US is a project that was crafted purely with JavaScript.
