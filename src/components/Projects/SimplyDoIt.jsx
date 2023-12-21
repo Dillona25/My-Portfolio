@@ -1,6 +1,8 @@
 import JS from "../../assets/JS.svg";
 import React from "../../assets/React.svg";
 import Tailwind from "../../assets/Tailwind.svg";
+import Node from "../../assets/NODE.svg";
+import Mongo from "../../assets/mongodb.svg";
 import Simply1 from "../../images/Simply1.png";
 import Simply2 from "../../images/Simply2.png";
 import Simply3 from "../../images/Simply3.png";
@@ -31,7 +33,7 @@ const SimplyDoIt = ({ showCard, category }) => {
       </div>
       <div className="flex flex-col gap-[20px] justify-between h-fit bg-white w-full mt-[-50px] p-[10px] rounded-lg">
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
-          <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
+          <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px] text-ellipsis whitespace-nowrap overflow-hidden">
             Simply Do It
           </h1>
           <img
@@ -47,6 +49,16 @@ const SimplyDoIt = ({ showCard, category }) => {
           <img
             src={Tailwind}
             alt="Tailwind logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={Node}
+            alt="Node.js logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={Mongo}
+            alt="Mongodb logo"
             className="h-[35px] w-[35px] self-center"
           ></img>
         </div>

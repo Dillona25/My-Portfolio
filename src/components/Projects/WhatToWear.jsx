@@ -2,6 +2,7 @@ import HTML from "../../assets/HTML.svg";
 import CSS from "../../assets/CSS.svg";
 import Node from "../../assets/NODE.svg";
 import React from "../../assets/React.svg";
+import Mongo from "../../assets/mongodb.svg";
 import WTW from "../../images/WTW.png";
 
 const WhatToWear = ({ showCard, category }) => {
@@ -19,7 +20,7 @@ const WhatToWear = ({ showCard, category }) => {
       <div className="flex flex-col gap-[20px] justify-between h-fit xl:h-[330px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
           <h1 className="font-[Poppins] font-semibold text-ellipsis overflow-hidden whitespace-nowrap text-black text-[20px] md:text-[25px]">
-            What To Wear
+            WTW
           </h1>
           <img
             src={HTML}
@@ -39,6 +40,11 @@ const WhatToWear = ({ showCard, category }) => {
           <img
             src={React}
             alt="react.js logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={Mongo}
+            alt="MongoDB logo"
             className="h-[35px] w-[35px] self-center"
           ></img>
         </div>
