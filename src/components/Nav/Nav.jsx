@@ -1,5 +1,4 @@
-import LinkedIn from "../assets/LinkedIn.svg";
-import "../../src/App.css";
+import "../App/App.css";
 import { Link } from "react-scroll";
 import { useState } from "react";
 import NavDropDown from "./NavDropDown";

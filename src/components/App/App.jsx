@@ -1,9 +1,12 @@
-import Nav from "../components/Nav.jsx";
-import Hero from "./Hero.jsx";
-import Projects from "../components/Projects/Projects.jsx";
-import About from "./About.jsx";
-import ContactModal from "./ContactModal.jsx";
-import Footer from "./Footer.jsx";
+//* Component imports
+import Nav from "../Nav/Nav.jsx";
+import Hero from "../Hero/Hero.jsx";
+import Projects from "../Projects/Projects.jsx";
+import About from "../About/About.jsx";
+import ContactModal from "../ContactModal/ContactModal.jsx";
+import Footer from "../Footer/Footer.jsx";
+
+//* React imports
 import { useState } from "react";
 import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min.js";
 import { Link } from "react-router-dom/cjs/react-router-dom.min.js";
