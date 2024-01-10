@@ -1,17 +1,17 @@
 import React from "react";
 import Image1 from "../../images/Image1.png";
 
-const About = ({ openModal }) => {
+const Background = ({ openModal }) => {
   return (
     <div
       id="about"
       className="px-[30px] mb-[20px] lg:mb-[100px] md:px-[70px] py-[100px] w-full"
     >
       <h1 className="pb-[10px] font-[Poppins] text-[40px] md:text-[50px] text-white font-semibold border-b-[2px] border-white border-opacity-20">
-        About me
+        Background
       </h1>
       <div className="flex flex-col md:flex-row justify-between gap-[40px] mt-[50px]">
-        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-[fit] md:h-[750px] bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
+        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-[fit] md:h-fit bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
           <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
             <div className="px-[15px]">
               <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] md:text-[30px]  pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
@@ -37,12 +37,6 @@ const About = ({ openModal }) => {
               <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
                 Northeast Community College | Associates in accounting
               </h2>
-              <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
-                During my time at Northeast studying accounting I gained
-                extensive knowledge but more importantly developed work field
-                skills for my career. I graduated with a 3.8 GPA making the
-                presidents honor list, and the schools honor roll, both years.
-              </p>
             </div>
             <div className="px-[15px]">
               <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
@@ -50,26 +44,45 @@ const About = ({ openModal }) => {
               </h1>
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
               <time className="font-[Poppins] text-gray-400 text-[15px]">
-                April 2022 | current
+                April 2022 | Current
               </time>
               <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
                 ALLO Communications | Fiber Splice Designer
               </h2>
               <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
-                Here at ALLO as a splice designer I have a substancial amout of
-                experience using excel, building and creating efficient and
-                effective data gathering spreadsheets. I am responsible for
-                producing a design product to ALLOs construction teams as they
-                begin to build markets in CO, AZ, and NE. ALLO has provided me
-                substancial development of soft skills, and behavior skills that
-                will go a long way in my career.
+                Here at Allo I am responsible for: Distributing and maintaining
+                documents needed by fiberoptic splicers to splice cable and
+                support thousands of customers. Distributing and maintaining
+                complex sheets to track and analyze construction progress for
+                the company. Collaborating and working closely with construction
+                teams to provide accurate and efficient documents.
+              </p>
+            </div>
+            <div className="px-[15px]">
+              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
+              <time className="font-[Poppins] text-gray-400 text-[15px]">
+                June 2023 | Current
+              </time>
+              <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
+                TripleTen | Senior Software Engineering Student & Tutor
+              </h2>
+              <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
+                As a senior student, my love for coding and problem solving is
+                something I want to share with others. Currently, I am assigned
+                to helping students improve their skills with JavaScript and a
+                high focus in OOP, as well as React.js hooks, routing, and
+                states. What I do as a senior student tutor: Help other students
+                who are stuck fix bugs in their code, or guide them in the right
+                direction. Provide feedback and review fellow students code. I
+                also meet with new students who have questions about starting a
+                new journey in tech!
               </p>
             </div>
           </div>
         </div>
 
-        <div className="flex mb:flex-col gap-[20px] align-center w-full md:max-w-[50%] h-[750px] rounded-xl">
-          <div className="flex flex-col justify-between h-fit md:h-[750px] rounded-xl bg-[#363636] p-[20px] gap-[20px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+        <div className="flex md:flex-col gap-[20px] align-center w-full md:max-w-[50%] rounded-xl">
+          <div className="flex flex-col justify-between h-fit md:h-fit rounded-xl bg-[#363636] p-[20px] gap-[20px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
             <div className="flex m-auto mb-0 mt-0 gap-[30px] border-[1px] border-white rounded-[25%] p-[5px] w-[175px] md:w-[250px]">
               <img
                 src={Image1}
@@ -93,10 +106,52 @@ const About = ({ openModal }) => {
               contribute to significant growth, ultimately making an impact on a
               team’s success!
             </p>
+            <div className="flex flex-wrap justify-center gap-[10px] mt-[20px]">
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+                <p className="font-[Poppins] text-[12px] text-black">
+                  Collaboration
+                </p>
+              </div>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+                <p className="font-[Poppins] text-[12px] text-black">
+                  Leadership
+                </p>
+              </div>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+                <p className="font-[Poppins] text-[12px] text-black">
+                  Accountability
+                </p>
+              </div>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+                <p className="font-[Poppins] text-[12px] text-black">
+                  Adaptability
+                </p>
+              </div>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+                <p className="font-[Poppins] text-[12px] text-black">
+                  Time management
+                </p>
+              </div>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+                <p className="font-[Poppins] text-[12px] text-black">
+                  Multitasking
+                </p>
+              </div>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+                <p className="font-[Poppins] text-[12px] text-black">
+                  Patience
+                </p>
+              </div>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+                <p className="font-[Poppins] text-[12px] text-black">
+                  Critical Thinking
+                </p>
+              </div>
+            </div>
             <button
               onClick={openModal}
               href="#_"
-              class="hidden lg:inline-flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative lg:items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-0 mb-0 overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full group"
+              class="hidden lg:inline-flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative lg:items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-[20px] mb-[10px] overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full group"
             >
               <span class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#f5dfa1] group-hover:translate-x-0 ease">
                 <svg
@@ -126,4 +181,4 @@ const About = ({ openModal }) => {
   );
 };
 
-export default About;
+export default Background;
