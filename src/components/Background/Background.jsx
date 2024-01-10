@@ -11,7 +11,7 @@ const Background = ({ openModal }) => {
         Background
       </h1>
       <div className="flex flex-col md:flex-row justify-between gap-[40px] mt-[50px]">
-        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-[fit] md:h-fit bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
+        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-fit bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
           <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
             <div className="px-[15px]">
               <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] md:text-[30px]  pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
@@ -81,100 +81,92 @@ const Background = ({ openModal }) => {
           </div>
         </div>
 
-        <div className="flex md:flex-col gap-[20px] align-center w-full md:max-w-[50%] rounded-xl">
-          <div className="flex flex-col justify-between h-fit md:h-fit rounded-xl bg-[#363636] p-[20px] gap-[20px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
-            <div className="flex m-auto mb-0 mt-0 gap-[30px] border-[1px] border-white rounded-[25%] p-[5px] w-[175px] md:w-[250px]">
-              <img
-                src={Image1}
-                alt="Image of myself"
-                className="h-[250px] w-[175px] md:h-fit md:w-[250px] rounded-[25%] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
-              ></img>
-            </div>
-            <p className="font-[Poppins] text-[14px] xs:text-[15px] text-white text-center">
-              My Name is Dillon Arnold and Im 21 years old. Born and raised in
-              the Portland, Oregon Area but I now currently live in Nebraska
-              with my two mini Aussies and wife! On my free time you can find me
-              either golfing, coding, golfing or coding. Alongside my passion
-              for software development.
-              <br />
-              Im a current student in TripleTen's software engineering bootcamp
-              where I found my biggest passion since flying planes: Software
-              development. Ive always been someone who loves to learn, and
-              challenege myself and needless to say software developmet provides
-              just that. I have a career objective to leverage my dedication,
-              passion, and skills in a dynamic environment where I can
-              contribute to significant growth, ultimately making an impact on a
-              team’s success!
-            </p>
-            <div className="flex flex-wrap justify-center gap-[10px] mt-[20px]">
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Collaboration
-                </p>
-              </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Leadership
-                </p>
-              </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Accountability
-                </p>
-              </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Adaptability
-                </p>
-              </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Time management
-                </p>
-              </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Multitasking
-                </p>
-              </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Patience
-                </p>
-              </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Critical Thinking
-                </p>
-              </div>
-            </div>
-            <button
-              onClick={openModal}
-              href="#_"
-              class="hidden lg:inline-flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative lg:items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-[20px] mb-[10px] overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full group"
-            >
-              <span class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#f5dfa1] group-hover:translate-x-0 ease">
-                <svg
-                  class="w-6 h-6"
-                  fill="none"
-                  stroke="black"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  ></path>
-                </svg>
-              </span>
-              <span class="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease">
-                Contact
-              </span>
-              <span class="relative invisible">Contact</span>
-            </button>
+        <div className="flex-col md:flex gap-[20px] align-center w-full md:max-w-[50%] rounded-xl my-auto">
+          <div className="flex m-auto mb-[20px] mt-0 gap-[30px] border-[1px] border-white rounded-[25%] p-[5px] w-[175px] md:w-[250px]">
+            <img
+              src={Image1}
+              alt="Image of myself"
+              className="h-[250px] w-[175px] md:h-fit md:w-[250px] rounded-[25%] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+            ></img>
           </div>
+          <p className="font-[Poppins] text-[14px] xs:text-[15px] text-white text-center">
+            My Name is Dillon Arnold and Im 21 years old. Born and raised in
+            Oregon & Washington but I now currently live in Nebraska with my two
+            mini Aussies and my wife! On my free time you can find me either
+            golfing, pr coding. Im a current student in TripleTen's software
+            engineering bootcamp where I found my biggest passion. Ive always
+            been someone who loves to learn, and challenege myself and needless
+            to say software developmet provides just that. I have a career
+            objective to leverage my dedication, passion, and skills in a
+            dynamic environment where I can contribute to significant growth,
+            ultimately making an impact on a team’s success!
+          </p>
+          <div className="flex flex-wrap justify-center gap-[10px] mt-[15px] mb-[10px]">
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+              <p className="font-[Poppins] text-[12px] text-black">
+                Collaboration
+              </p>
+            </div>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+              <p className="font-[Poppins] text-[12px] text-black">
+                Leadership
+              </p>
+            </div>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+              <p className="font-[Poppins] text-[12px] text-black">
+                Accountability
+              </p>
+            </div>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+              <p className="font-[Poppins] text-[12px] text-black">
+                Adaptability
+              </p>
+            </div>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+              <p className="font-[Poppins] text-[12px] text-black">
+                Time management
+              </p>
+            </div>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+              <p className="font-[Poppins] text-[12px] text-black">
+                Multitasking
+              </p>
+            </div>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+              <p className="font-[Poppins] text-[12px] text-black">Patience</p>
+            </div>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
+              <p className="font-[Poppins] text-[12px] text-black">
+                Critical Thinking
+              </p>
+            </div>
+          </div>
+          <button
+            onClick={openModal}
+            href="#_"
+            class="hidden lg:inline-flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative lg:items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-[15px] mb-[10px] overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full group"
+          >
+            <span class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#f5dfa1] group-hover:translate-x-0 ease">
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="black"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                ></path>
+              </svg>
+            </span>
+            <span class="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease">
+              Contact
+            </span>
+            <span class="relative invisible">Contact</span>
+          </button>
         </div>
       </div>
     </div>
