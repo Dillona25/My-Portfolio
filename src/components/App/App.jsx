@@ -3,18 +3,13 @@ import Nav from "../Nav/Nav.jsx";
 import Hero from "../Hero/Hero.jsx";
 import Projects from "../Projects/Projects.jsx";
 import Background from "../Background/Background.jsx";
-import Contact from "../Contact/Contact.jsx";
+import ContactModal from "../ContactModal/ContactModal.jsx";
 import Footer from "../Footer/Footer.jsx";
 import ContactButton from "../ContactButton/ContactButton.jsx";
 import Testimonials from "../Testimonials/Testimonials.jsx";
 
 //* React imports
 import { useState } from "react";
-import {
-  BrowserRouter,
-  Switch,
-  Route,
-} from "react-router-dom/cjs/react-router-dom.min.js";
 
 function App() {
   const [modal, setModal] = useState("");
@@ -28,25 +23,16 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
-      <div className="bg-[#2b2b2b] w-full m-auto">
-        <Route exact path="/">
-          <Nav />
-          <Hero />
-          <Projects />
-          <Background />
-          <Testimonials />
-          <Footer />
-          <ContactButton />
-        </Route>
-        <Switch>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
-      </div>
-    </BrowserRouter>
+    <div className="bg-[#2b2b2b] w-full m-auto">
+      <Nav openModal={openModal} />
+      <Hero />
+      <Projects />
+      <Background />
+      <Testimonials openModal={openModal} />
+      <Footer />
+      <ContactButton openModal={openModal} />
+      {modal === "create" && <ContactModal closeModal={closeModal} />}
+    </div>
   );
 }
-``;
 export default App;

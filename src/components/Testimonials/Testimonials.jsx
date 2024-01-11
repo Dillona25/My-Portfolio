@@ -1,8 +1,7 @@
 import Max from "../../images/Max J.jpeg";
 import Anderson from "../../images/Anderson.jpeg";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
-const Testimonials = () => {
+const Testimonials = ({ openModal }) => {
   return (
     <div
       id="testimonials"
@@ -80,12 +79,12 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <Link
-        to="/contact"
+      <button
+        onClick={openModal}
         className="hidden md:block mt-[50px] font-[Poppins] py-[10px] px-[40px] rounded-full bg-[#f5dfa1] text-black w-fit m-auto shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-110 duration-[.5s] ease-in-out"
       >
         Connect
-      </Link>
+      </button>
     </div>
   );
 };

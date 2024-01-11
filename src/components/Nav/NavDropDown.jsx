@@ -1,5 +1,4 @@
 import { Link } from "react-scroll";
-import { Link as RouterLink } from "react-router-dom/cjs/react-router-dom.min";
 import "../App/App.css";
 import { motion } from "framer-motion";
 
@@ -16,7 +15,7 @@ const NavDropDown = ({ handleOpenDropdown }) => {
           to="projects"
           spy={true}
           smooth={true}
-          offset={100}
+          offset={0}
           className="border-black border-b-[1px] p-[10px] text-center"
           onClick={handleOpenDropdown}
         >
@@ -44,13 +43,6 @@ const NavDropDown = ({ handleOpenDropdown }) => {
         >
           <button className="text-black font-[Poppins]">Testimonials</button>
         </Link>
-        <RouterLink
-          to="/contact"
-          className="border-black border-b-[1px] p-[10px] text-center"
-          onClick={handleOpenDropdown}
-        >
-          <button className="text-black font-[Poppins]">Contact</button>
-        </RouterLink>
       </motion.div>
     </>
   );
