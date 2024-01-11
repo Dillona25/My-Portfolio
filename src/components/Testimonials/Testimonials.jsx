@@ -32,8 +32,8 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-[10px] p-[20px] mt-[20px] max-w-[500px] h-fit md:h-[330px]">
-            <p className="font-[Poppins] text-black text-[14px]">
+          <div className="bg-[#2b2b2b] rounded-[10px] p-[20px] mt-[20px] max-w-[500px] h-fit md:h-[275px] shadow-[rgba(255,_255,_255,_0.24)_0px_3px_8px]">
+            <p className="font-[Poppins] text-white text-[14px]">
               "I had the opportunity to tutor Dillon at Tripleten, and he truly
               stood out as an exceptional student. His ability to grasp new
               concepts at a rapid pace was impressive, especially in a
@@ -41,13 +41,10 @@ const Testimonials = () => {
               Dillon has a clear and effective way of communicating that made a
               significant difference to our learning environment. What’s really
               remarkable about Dillon is his talent for bringing people
-              together. He's a natural when it comes to motivating his peers and
-              fostering a sense of teamwork. His positive attitude is
-              infectious, and he has a unique talent for inspiring everyone
-              around him to perform their best. Dillon is a great team player
-              and a born leader. He would be an invaluable asset to any tech
-              team or project. I highly recommend him and am confident in his
-              continued success in the tech industry."
+              together. His positive attitude is infectious, and he has a unique
+              talent for inspiring everyone around him to perform their best.
+              Dillon is a great team player and a born leader. He would be an
+              invaluable asset to any tech team or project."
             </p>
           </div>
         </div>
@@ -68,8 +65,8 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-[10px] p-[20px] mt-[20px] max-w-[500px] h-fit md:h-[330px]">
-            <p className="font-[Poppins] text-black text-[14px]">
+          <div className="bg-[#2b2b2b] rounded-[10px] p-[20px] mt-[20px] max-w-[500px] h-fit md:h-[275px] shadow-[rgba(255,_255,_255,_0.24)_0px_3px_8px]">
+            <p className="font-[Poppins] text-white text-[14px]">
               "I collaborated with Dillon and 3 other developers to create the
               Flight Checker during TripleTen's August Code Jam. The project was
               Dillon's idea. His curiosity and ability to come up with unique

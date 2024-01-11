@@ -11,7 +11,7 @@ const Background = () => {
         Background
       </h1>
       <div className="flex flex-col md:flex-row justify-between gap-[40px] mt-[50px]">
-        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-fit bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
+        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-fit bg-[#363636] shadow-[rgba(255,_255,_255,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
           <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
             <div className="px-[15px]">
               <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] md:text-[30px]  pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
@@ -81,7 +81,7 @@ const Background = () => {
           </div>
           <a
             download="DillonArnoldResume.pdf"
-            href="../../images/Resume.pdf"
+            href="../../src/images/Resume.pdf"
             className="font-[Poppins] py-[10px] px-[40px] rounded-full bg-[#f5dfa1] text-black w-fit m-auto shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-110 duration-[.5s] ease-in-out"
           >
             Resume
