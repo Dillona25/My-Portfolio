@@ -1,7 +1,7 @@
 import React from "react";
 import Image1 from "../../images/Image1.png";
 
-const Background = ({ openModal }) => {
+const Background = () => {
   return (
     <div
       id="about"
@@ -79,6 +79,13 @@ const Background = ({ openModal }) => {
               </p>
             </div>
           </div>
+          <a
+            download="DillonArnoldResume.pdf"
+            href="../../images/Resume.pdf"
+            className="font-[Poppins] py-[10px] px-[40px] rounded-full bg-[#f5dfa1] text-black w-fit m-auto shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-110 duration-[.5s] ease-in-out"
+          >
+            Resume
+          </a>
         </div>
 
         <div className="flex-col md:flex gap-[20px] align-center w-full md:max-w-[50%] rounded-xl my-auto">
@@ -93,7 +100,7 @@ const Background = ({ openModal }) => {
             My Name is Dillon Arnold and Im 21 years old. Born and raised in
             Oregon & Washington but I now currently live in Nebraska with my two
             mini Aussies and my wife! On my free time you can find me either
-            golfing, pr coding. Im a current student in TripleTen's software
+            golfing, or coding. Im a current student in TripleTen's software
             engineering bootcamp where I found my biggest passion. Ive always
             been someone who loves to learn, and challenege myself and needless
             to say software developmet provides just that. I have a career
@@ -102,71 +109,31 @@ const Background = ({ openModal }) => {
             ultimately making an impact on a team’s success!
           </p>
           <div className="flex flex-wrap justify-center gap-[10px] mt-[15px] mb-[10px]">
-            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-              <p className="font-[Poppins] text-[12px] text-black">
-                Collaboration
-              </p>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+              <p>Collaboration</p>
             </div>
-            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-              <p className="font-[Poppins] text-[12px] text-black">
-                Leadership
-              </p>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+              <p>Leadership</p>
             </div>
-            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-              <p className="font-[Poppins] text-[12px] text-black">
-                Accountability
-              </p>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+              <p>Accountability</p>
             </div>
-            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-              <p className="font-[Poppins] text-[12px] text-black">
-                Adaptability
-              </p>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+              <p>Adaptability</p>
             </div>
-            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-              <p className="font-[Poppins] text-[12px] text-black">
-                Time management
-              </p>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+              <p>Time management</p>
             </div>
-            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-              <p className="font-[Poppins] text-[12px] text-black">
-                Multitasking
-              </p>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+              <p>Multitasking</p>
             </div>
-            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-              <p className="font-[Poppins] text-[12px] text-black">Patience</p>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+              <p>Patience</p>
             </div>
-            <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-              <p className="font-[Poppins] text-[12px] text-black">
-                Critical Thinking
-              </p>
+            <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+              <p>Critical Thinking</p>
             </div>
           </div>
-          <button
-            onClick={openModal}
-            href="#_"
-            class="hidden lg:inline-flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative lg:items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-[15px] mb-[10px] overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full group"
-          >
-            <span class="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#f5dfa1] group-hover:translate-x-0 ease">
-              <svg
-                class="w-6 h-6"
-                fill="none"
-                stroke="black"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M14 5l7 7m0 0l-7 7m7-7H3"
-                ></path>
-              </svg>
-            </span>
-            <span class="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease">
-              Contact
-            </span>
-            <span class="relative invisible">Contact</span>
-          </button>
         </div>
       </div>
     </div>

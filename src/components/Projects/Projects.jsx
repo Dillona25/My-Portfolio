@@ -71,7 +71,7 @@ const Projects = () => {
           React
         </button>
       </div>
-      <div className="mt-[100px] flex flex-col  xl:justify-center xl:flex-row xl:gap-[20px]">
+      <div className="mt-[100px] flex flex-col items-center md:flex-row md:justify-center md:gap-[20px]">
         <AroundTheUs category="JavaScript" showCard={showCard} />
         <WhatToWear category="React" showCard={showCard} />
         <SimplyDoIt category="React" showCard={showCard} />
