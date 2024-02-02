@@ -19,7 +19,7 @@ const ResumeConfirmModal = ({ handleCloseConfirmModal }) => {
             onClick={handleCloseConfirmModal}
             download="DillonArnoldResume.pdf"
             href="../../src/images/Resume.pdf"
-            className="py-4 px-6 bg-[#2dd13a] text-white font-[Poppins] font-bold rounded-[10px] w-[150px] text-center"
+            className="py-4 px-6 bg-black text-white font-[Poppins] font-bold rounded-[10px] w-[150px] text-center"
           >
             Download
           </a>
