@@ -1,8 +1,18 @@
-# React + Vite
+# About my portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is my portfolio website. Here you can find out more about me, the work I do, and my brackground!
+<br>
+The project was made using React.js and tailwind css to create a smooth and amazing UI. It features multiple modals, a form that is fully validated and a projects section where the user can actually filter projects by the tech stack.
 
-Currently, two official plugins are available:
+# Images from the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div display="flex" content="space-evenly">
+<img align="center" height="500" alt="Image of project" src="./src/images/1.png">
+<img align="center" height="500" alt="Image of project" src="./src/images/2.png">
+<img align="center" height="500" alt="Image of project" src="./src/images/3.png">
+<img align="center" height="500" alt="Image of project" src="./src/images/4.png">
+</div>
+
+# Live site
+
+www.arnoldsportfolio.com
