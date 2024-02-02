@@ -56,15 +56,15 @@ const WhatToWear = ({ showCard, category }) => {
           project was made using React.js as a front-end and Node.js for the
           backend.
         </p>
-        <div className="flex gap-[20px]">
+        <div className="flex gap-3">
+          <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
+            Live site
+          </button>
           <a href="https://github.com/Dillona25/se_project_react">
             <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
               Code
-            </button>{" "}
+            </button>
           </a>
-          <p className="py-[5px] bg-white w-fit rounded-md text-black font-[Poppins]">
-            Adding backend :)
-          </p>
         </div>
       </div>
     </div>
