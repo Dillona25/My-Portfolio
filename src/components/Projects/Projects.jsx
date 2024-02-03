@@ -1,7 +1,6 @@
 import AroundTheUs from "./AroundTheUs.jsx";
 import WhatToWear from "./WhatToWear.jsx";
 import SimplyDoIt from "./SimplyDoIt.jsx";
-import TripleTenLibrary from "./Library.jsx";
 import FlightChecker from "./FlightChecker.jsx";
 import MyPortfolio from "./Portfolio.jsx";
 import ProjectsFilter from "./ProjectsFilter.jsx";
@@ -53,31 +52,24 @@ const Projects = () => {
           Featured
         </button>
         <button
-          onClick={() => handleProject("HTML/CSS")}
+          onClick={() => handleProject("Front-End")}
           className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
         >
-          HTML/CSS
+          Front-End
         </button>
         <button
-          onClick={() => handleProject("JavaScript")}
+          onClick={() => handleProject("Full-Stack")}
           className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
         >
-          JavaScript
-        </button>
-        <button
-          onClick={() => handleProject("React")}
-          className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
-        >
-          React
+          Full-Stack
         </button>
       </div>
-      <div className="mt-[100px] flex flex-col items-center md:flex-row md:justify-center md:gap-[20px]">
-        <AroundTheUs category="JavaScript" showCard={showCard} />
-        <WhatToWear category="React" showCard={showCard} />
-        <SimplyDoIt category="React" showCard={showCard} />
-        <TripleTenLibrary category="HTML/CSS" showCard={showCard} />
-        <FlightChecker category="JavaScript" showCard={showCard} />
-        <MyPortfolio category="React" showCard={showCard} />
+      <div className="mt-[100px] flex flex-col items-center md:flex-row md:flex-wrap md:justify-center md:gap-[20px]">
+        <AroundTheUs category="Front-End" showCard={showCard} />
+        <WhatToWear category="Full-Stack" showCard={showCard} />
+        <SimplyDoIt category="Full-Stack" showCard={showCard} />
+        <FlightChecker category="Front-End" showCard={showCard} />
+        <MyPortfolio category="Front-End" showCard={showCard} />
       </div>
     </div>
   );

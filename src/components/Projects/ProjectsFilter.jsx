@@ -15,22 +15,16 @@ const ProjectsFilter = ({ handleProject }) => {
         Featured
       </button>
       <button
-        onClick={() => handleProject("HTML/CSS")}
+        onClick={() => handleProject("Front-End")}
         className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
       >
-        HTML/CSS
+        Front-End
       </button>
       <button
-        onClick={() => handleProject("JavaScript")}
+        onClick={() => handleProject("Full-Stack")}
         className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
       >
-        JavaScript
-      </button>
-      <button
-        onClick={() => handleProject("React")}
-        className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
-      >
-        React
+        Full-Stack
       </button>
     </motion.div>
   );
