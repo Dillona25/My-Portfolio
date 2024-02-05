@@ -67,15 +67,15 @@ const Background = ({ handleOpenConfirmModal }) => {
                 TripleTen | Senior Software Engineering Student & Tutor
               </h2>
               <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
-                As a senior student, my love for coding and problem solving is
-                something I want to share with others. Currently, I am assigned
-                to helping students improve their skills with JavaScript and a
-                high focus in OOP, as well as React.js hooks, routing, and
-                states. What I do as a senior student tutor: Help other students
-                who are stuck fix bugs in their code, or guide them in the right
-                direction. Provide feedback and review fellow students code. I
-                also meet with new students who have questions about starting a
-                new journey in tech!
+                As a senior student I am assigned to helping students improve
+                their skills with JavaScript and a high focus in OOP, as well as
+                React.js hooks, routing, and states. What I do as a senior
+                student tutor: Help other students who are stuck with 1v1
+                meetings. Fix bugs in their code, or guide them in the right
+                direction to solving a complex problem. Provide feedback and
+                review fellow students code. I have also built, tested, and
+                provided crucial design feedback for multiple projects before
+                TripleTen releases them into the material for students.
               </p>
             </div>
           </div>

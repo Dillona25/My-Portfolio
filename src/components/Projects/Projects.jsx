@@ -4,6 +4,7 @@ import SimplyDoIt from "./SimplyDoIt.jsx";
 import FlightChecker from "./FlightChecker.jsx";
 import MyPortfolio from "./Portfolio.jsx";
 import ProjectsFilter from "./ProjectsFilter.jsx";
+import Spots from "./Spots.jsx";
 import { useState } from "react";
 
 const Projects = () => {
@@ -70,6 +71,7 @@ const Projects = () => {
         <SimplyDoIt category="Full-Stack" showCard={showCard} />
         <FlightChecker category="Front-End" showCard={showCard} />
         <MyPortfolio category="Front-End" showCard={showCard} />
+        <Spots category="Front-End" showCard={showCard} />
       </div>
     </div>
   );
