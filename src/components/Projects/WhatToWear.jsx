@@ -27,7 +27,7 @@ const WhatToWear = ({ showCard, category }) => {
             backend.
           </p>
         }
-        LiveSite={""}
+        LiveSite={"https://DillonArnold.twilightparadox.com"}
         Code={"https://github.com/Dillona25/WhatToWear"}
       />
     </div>

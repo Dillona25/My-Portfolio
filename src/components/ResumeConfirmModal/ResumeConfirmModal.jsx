@@ -17,7 +17,7 @@ const ResumeConfirmModal = ({ handleCloseConfirmModal }) => {
         <div className="flex flex-col items-center md:flex-row gap-5 md:justify-center">
           <a
             onClick={handleCloseConfirmModal}
-            download="DillonArnoldResume.pdf"
+            download="Resume.pdf"
             href="../../src/images/Resume.pdf"
             className="py-4 px-6 bg-black text-white font-[Poppins] font-bold rounded-[10px] w-[150px] text-center  hover:scale-105 ease-out duration-75"
           >
