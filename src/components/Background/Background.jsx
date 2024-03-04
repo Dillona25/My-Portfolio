@@ -73,9 +73,7 @@ const Background = ({ handleOpenConfirmModal }) => {
                 student tutor: Help other students who are stuck with 1v1
                 meetings. Fix bugs in their code, or guide them in the right
                 direction to solving a complex problem. Provide feedback and
-                review fellow students code. I have also built, tested, and
-                provided crucial design feedback for multiple projects before
-                TripleTen releases them into the material for students.
+                review fellow students code.
               </p>
             </div>
           </div>

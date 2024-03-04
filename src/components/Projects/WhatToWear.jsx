@@ -19,12 +19,12 @@ const WhatToWear = ({ showCard, category }) => {
         Stackthree={Mongo}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-            What to wear is a simple and clean website. The app allows users to
-            make a profile by editing their name, and avatar. The user can also
-            add their location and based on their location, they will be
-            recommened clothes that they have uploaded to their closet. The
-            project was made using React.js as a front-end and Node.js for the
-            backend.
+            What to wear is a full-stack application. The app allows users to
+            make a profile with a custom name, avatar and closet. Users will be
+            recommened clothes that they have uploaded to their closet based on
+            the outside weather. The project was made using React.js, Express,
+            MongoDB and hosted with Google Cloud. A link to BE code can be found
+            in the Read.me
           </p>
         }
         LiveSite={"https://DillonArnold.twilightparadox.com"}
