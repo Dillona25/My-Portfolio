@@ -1,8 +1,9 @@
-import HTML from "../../assets/HTML.svg";
-import CSS from "../../assets/CSS.svg";
-import JS from "../../assets/JS.svg";
-import US from "../../images/US.png";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import US from "../../images/Us.png";
+import JavaScript from "../../assets/JavaScript.svg";
+import Html from "../../assets/Html.svg";
+import Css from "../../assets/Css.svg";
+import White from "../../images/WhiteImage.png";
 
 const AroundTheUs = ({ showCard, category }) => {
   return (
@@ -13,10 +14,12 @@ const AroundTheUs = ({ showCard, category }) => {
     >
       <ProjectCard
         title={"Around The US"}
+        Stackone={Html}
+        Stacktwo={Css}
+        Stackthree={JavaScript}
+        Stackfour={White}
+        Stackfive={White}
         ProjectImage={US}
-        Stackone={HTML}
-        Stacktwo={CSS}
-        Stackthree={JS}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             Around the US is a project that was crafted purely with JavaScript.

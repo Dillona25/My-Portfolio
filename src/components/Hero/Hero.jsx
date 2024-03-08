@@ -1,13 +1,16 @@
 import Typewriter from "typewriter-effect";
 import Portrait from "../../images/Portrait.png";
 import Portraitm from "../../assets/Portrait mobile.png";
-import css from "../../assets/css.svg";
-import HTML from "../../assets/HTML.svg";
-import JS from "../../assets/JS.svg";
-import NODE from "../../assets/NODE.svg";
-import React from "../../assets/React.svg";
+import Html from "../../assets/Html.svg";
+import Css from "../../assets/Css.svg";
 import Tailwind from "../../assets/Tailwind.svg";
-import Mongo from "../../assets/mongodb.svg";
+import JavaScript from "../../assets/JavaScript.svg";
+import TypeScript from "../../assets/typescript.svg";
+import ReactImg from "../../assets/React.svg";
+import NodeJS from "../../assets/Node.svg";
+import Mongo from "../../assets/Mongo.svg";
+import Netlify from "../../assets/Netlify.svg";
+import Cloud from "../../assets/Cloud.svg";
 
 const Hero = () => {
   return (
@@ -41,49 +44,64 @@ const Hero = () => {
               />
             </span>
           </h1>
-          <p className="font-[Poppins] text-white text-center xl:text-start xl:max-w-[600px] text-[15px] xl:text-[20px] mt-[12px]">
+          <p className="font-[Poppins] text-white text-center xl:text-start xl:max-w-[600px] text-[15px] xl:text-[30 mt-[12px]">
             I design websites and applications that are both appealing and user
             friendly! I have experience with front-end stacks such as HTML, CSS
             3 as well as Tailwind, JavaScript and React.js. I have experience in
             backend stacks such as Node.js, Express.js, MongoDB and Google
             Cloud. Stay a minute why dont ya, there's still alot to see.
           </p>
-          <div className="flex justify-center xl:justify-start mt-[20px] w-full xl:ml-[-10px] xl:jusify-center">
+          <div className="flex flex-wrap gap-4 self-start justify-center mt-[24px]">
             <img
-              src={HTML}
-              alt="HTML logo"
-              className="w-[45px] xs:w-[50px] xl:w-[90px]"
-            ></img>
+              alt="Html logo"
+              src={Html}
+              className="h-[30px] w-[30px] sm:h-[40px] sm:w-[40px] rounded-sm"
+            />
             <img
-              src={css}
-              alt="css logo"
-              className="w-[45px] xs:w-[50px] xl:w-[90px]"
-            ></img>
+              alt="Css logo"
+              src={Css}
+              className="h-[30px] w-[30px] sm:h-[40px] sm:w-[40px] rounded-sm"
+            />
             <img
+              alt="Tailwind logo"
               src={Tailwind}
-              alt="taildwind logo"
-              className="w-[45px] xs:w-[50px] xl:w-[90px]"
-            ></img>
+              className="h-[30px] w-[30px] sm:h-[40px] sm:w-[40px] rounded-sm"
+            />
             <img
-              src={JS}
-              alt="javaScript logo"
-              className="w-[45px] xs:w-[50px] xl:w-[90px]"
-            ></img>
+              alt="JavaScript logo"
+              src={JavaScript}
+              className="h-[30px] w-[30px] sm:h-[40px] sm:w-[40px] rounded-sm"
+            />
             <img
-              src={React}
-              alt="react.js logo"
-              className="w-[45px] xs:w-[50px] xl:w-[90px]"
-            ></img>
+              alt="TypeScript logo"
+              src={TypeScript}
+              className="h-[30px] w-[30px] sm:h-[40px] sm:w-[40px] rounded-sm"
+            />
             <img
-              src={NODE}
-              alt="node.js logo"
-              className="w-[45px] xs:w-[50px] xl:w-[90px]"
-            ></img>
+              alt="React logo"
+              src={ReactImg}
+              className="h-[30px] w-[30px] sm:h-[40px] sm:w-[40px] rounded-sm"
+            />
             <img
-              src={Mongo}
+              alt="Node logo"
+              src={NodeJS}
+              className="h-[30px] w-[30px] sm:h-[40px] sm:w-[40px] rounded-sm"
+            />
+            <img
               alt="Mongo logo"
-              className="w-[45px] xs:w-[50px] xl:w-[90px]"
-            ></img>
+              src={Mongo}
+              className="h-[30px] w-[30px] sm:h-[40px] sm:w-[40px] rounded-sm"
+            />
+            <img
+              alt="Netlify logo"
+              src={Netlify}
+              className="h-[30px] w-[30px] sm:h-[40px] sm:w-[40px] rounded-sm"
+            />
+            <img
+              alt="Cloud logo"
+              src={Cloud}
+              className="h-[30px] w-[30px] sm:h-[40px] sm:w-[40px] rounded-sm"
+            />
           </div>
         </div>
         <div className="hidden xl:flex bg-white h-[350px] bg-opacity-50 w-[350px] m-auto mt-[200px] xl:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">

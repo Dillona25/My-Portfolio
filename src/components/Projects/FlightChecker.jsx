@@ -1,8 +1,9 @@
 import Flight from "../../images/Flight.png";
-import HTML from "../../assets/HTML.svg";
-import JS from "../../assets/JS.svg";
-import Tailwind from "../../assets/Tailwind.svg";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import Html from "../../assets/Html.svg";
+import Tailwind from "../../assets/Tailwind.svg";
+import JavaScript from "../../assets/JavaScript.svg";
+import White from "../../images/WhiteImage.png";
 
 const FlightChecker = ({ showCard, category }) => {
   return (
@@ -13,10 +14,12 @@ const FlightChecker = ({ showCard, category }) => {
     >
       <ProjectCard
         title={"Flight Tracker"}
-        ProjectImage={Flight}
-        Stackone={HTML}
+        Stackone={Html}
         Stacktwo={Tailwind}
-        Stackthree={JS}
+        Stackthree={JavaScript}
+        Stackfour={White}
+        Stackfive={White}
+        ProjectImage={Flight}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             Flight Checker is a fully responsive website that allows users to

@@ -1,8 +1,8 @@
-import HTML from "../../assets/HTML.svg";
-import CSS from "../../assets/CSS.svg";
-import JS from "../../assets/JS.svg";
 import spots from "../../images/spots.png";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import Html from "../../assets/Html.svg";
+import Css from "../../assets/Css.svg";
+import White from "../../images/WhiteImage.png";
 
 const Spots = ({ showCard, category }) => {
   return (
@@ -13,10 +13,12 @@ const Spots = ({ showCard, category }) => {
     >
       <ProjectCard
         title={"Spots"}
+        Stackone={Html}
+        Stacktwo={Css}
+        Stackthree={White}
+        Stackfour={White}
+        Stackfive={White}
         ProjectImage={spots}
-        Stackone={HTML}
-        Stacktwo={CSS}
-        Stackthree={JS}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             Spots was a test project that I built and tested for TripleTen

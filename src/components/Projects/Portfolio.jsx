@@ -1,7 +1,9 @@
-import Tailwind from "../../assets/Tailwind.svg";
-import React from "../../assets/React.svg";
 import Portfolio from "../../images/Portfolio.png";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import ReactImg from "../../assets/React.svg";
+import Tailwind from "../../assets/Tailwind.svg";
+import Netlify from "../../assets/Netlify.svg";
+import White from "../../images/WhiteImage.png";
 
 const MyPortfolio = ({ showCard, category }) => {
   return (
@@ -13,8 +15,11 @@ const MyPortfolio = ({ showCard, category }) => {
       <ProjectCard
         title={"My Portfolio"}
         ProjectImage={Portfolio}
-        Stackone={React}
+        Stackone={ReactImg}
         Stacktwo={Tailwind}
+        Stackthree={Netlify}
+        Stackfour={White}
+        Stackfive={White}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             The site you are browsing right now! Built with React and Tailwind

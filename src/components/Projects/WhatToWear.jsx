@@ -1,8 +1,10 @@
-import Node from "../../assets/NODE.svg";
-import React from "../../assets/React.svg";
-import Mongo from "../../assets/mongodb.svg";
 import WTW from "../../images/WTW.png";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import JavaScript from "../../assets/JavaScript.svg";
+import ReactImg from "../../assets/React.svg";
+import Css from "../../assets/Css.svg";
+import Node from "../../assets/Node.svg";
+import Cloud from "../../assets/Cloud.svg";
 
 const WhatToWear = ({ showCard, category }) => {
   return (
@@ -13,10 +15,12 @@ const WhatToWear = ({ showCard, category }) => {
     >
       <ProjectCard
         title={"What To Wear"}
+        Stackone={JavaScript}
+        Stacktwo={ReactImg}
+        Stackthree={Css}
+        Stackfour={Node}
+        Stackfive={Cloud}
         ProjectImage={WTW}
-        Stackone={React}
-        Stacktwo={Node}
-        Stackthree={Mongo}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             What to wear is a full-stack application. The app allows users to

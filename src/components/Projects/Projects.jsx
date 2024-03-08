@@ -1,11 +1,11 @@
 import AroundTheUs from "./AroundTheUs.jsx";
 import WhatToWear from "./WhatToWear.jsx";
-import SimplyDoIt from "./SimplyDoIt.jsx";
 import FlightChecker from "./FlightChecker.jsx";
 import MyPortfolio from "./Portfolio.jsx";
 import ProjectsFilter from "./ProjectsFilter.jsx";
 import Spots from "./Spots.jsx";
 import { useState } from "react";
+import AviNews from "./AviNews.jsx";
 
 const Projects = () => {
   const [showCard, setShowCard] = useState("all");
@@ -68,10 +68,10 @@ const Projects = () => {
       <div className="mt-[100px] flex flex-col items-center md:flex-row md:flex-wrap md:justify-center md:gap-[20px]">
         <AroundTheUs category="Front-End" showCard={showCard} />
         <WhatToWear category="Full-Stack" showCard={showCard} />
-        <SimplyDoIt category="Full-Stack" showCard={showCard} />
         <FlightChecker category="Front-End" showCard={showCard} />
         <MyPortfolio category="Front-End" showCard={showCard} />
         <Spots category="Front-End" showCard={showCard} />
+        <AviNews category="Full-Stack" showCard={showCard} />
       </div>
     </div>
   );
