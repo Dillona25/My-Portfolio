@@ -13,7 +13,7 @@ const AroundTheUs = ({ showCard, category }) => {
       }`}
     >
       <ProjectCard
-        title={"Around The US"}
+        title={"Around The PNW"}
         Stackone={Html}
         Stacktwo={Css}
         Stackthree={JavaScript}
@@ -22,14 +22,14 @@ const AroundTheUs = ({ showCard, category }) => {
         ProjectImage={US}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-            Around the US is a project that was crafted purely with JavaScript.
+            Around the PNW is a project that was crafted purely with JavaScript.
             With a high focus in OOP the user is greeted with a stunning
             aesthetic website. The website is a social media page that allows
             the user to make it their own! From editing the profile, adding a
             new profile photo, and adding or deleting photos in their feed.
           </p>
         }
-        LiveSite={"https://dillona25.github.io/se_project_aroundtheus/"}
+        LiveSite={"https://dillona25.github.io/AroundThePNW/"}
         Code={"https://github.com/Dillona25/se_project_aroundtheus"}
       />
     </div>
