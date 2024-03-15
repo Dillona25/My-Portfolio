@@ -6,6 +6,7 @@ import ProjectsFilter from "./ProjectsFilter.jsx";
 import Spots from "./Spots.jsx";
 import { useState } from "react";
 import AviNews from "./AviNews.jsx";
+import SimplyDoIt from "./SimplyDoIt.jsx";
 
 const Projects = () => {
   const [showCard, setShowCard] = useState("all");
@@ -47,10 +48,10 @@ const Projects = () => {
       {dropDown === false && <ProjectsFilter handleProject={handleProject} />}
       <div className="hidden md:flex gap-[50px] mt-[50px] justify-center">
         <button
-          onClick={() => handleProject("all")}
+          onClick={() => handleProject("Full-Stack")}
           className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
         >
-          Featured
+          Full-Stack
         </button>
         <button
           onClick={() => handleProject("Front-End")}
@@ -58,20 +59,15 @@ const Projects = () => {
         >
           Front-End
         </button>
-        <button
-          onClick={() => handleProject("Full-Stack")}
-          className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
-        >
-          Full-Stack
-        </button>
       </div>
       <div className="mt-[100px] flex flex-col items-center md:flex-row md:flex-wrap md:justify-center md:gap-[20px]">
         <AroundTheUs category="Front-End" showCard={showCard} />
+        <AviNews category="Full-Stack" showCard={showCard} />
+        <SimplyDoIt category="Full-Stack" showCard={showCard} />
         <WhatToWear category="Full-Stack" showCard={showCard} />
         <FlightChecker category="Front-End" showCard={showCard} />
         <MyPortfolio category="Front-End" showCard={showCard} />
         <Spots category="Front-End" showCard={showCard} />
-        <AviNews category="Full-Stack" showCard={showCard} />
       </div>
     </div>
   );

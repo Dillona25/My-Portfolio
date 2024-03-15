@@ -17,11 +17,11 @@ const Hero = () => {
     <>
       <div className="flex flex-col xl:flex-row xl:justify-between max-w-[100%] mt-[75px] mb-[75px] xl:mb-[150px] mx-[30px] xl:mx-[70px]">
         <div className="flex flex-col m-auto text-center xl:w-[850px] xl:text-start">
-          <div className="xl:hidden w-[200px] border-white border-[1px] mx-auto mb-[30px] rounded-[10px] p-[5px] shadow-[rgba(255,_255,_255,_0.50)_0px_3px_8px]">
+          <div className="xl:hidden bg-white h-[150px] bg-opacity-50 w-[200px] m-auto mt-[100px] mb-[50px] xl:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
             <img
-              className="xl:hidden w-[200px] rounded-[10px]"
+              className=" h-[300px] w-[200px] rounded-[10px] position: absolute bottom-0"
               alt="portrait"
-              src={Portraitm}
+              src={Portrait}
             ></img>
           </div>
           <h1 className="font-[Poppins] text-white text-[45px] xs:text-[50px] xl:text-[70px] font-semibold leading-[1.2]">
@@ -44,7 +44,7 @@ const Hero = () => {
               />
             </span>
           </h1>
-          <p className="font-[Poppins] text-white text-center xl:text-start xl:max-w-[600px] text-[15px] xl:text-[30 mt-[12px]">
+          <p className="font-[Poppins] text-white text-center xl:text-start xl:max-w-[600px] text-[15px] sm:text-[18px] mt-[12px]">
             I design websites and applications that are both appealing and user
             friendly! I have experience with front-end stacks such as HTML, CSS
             3 as well as Tailwind, JavaScript and React.js. I have experience in

@@ -42,6 +42,24 @@ const Background = ({ handleOpenConfirmModal }) => {
               <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
                 Experience
               </h1>
+              <div>
+                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
+                <time className="font-[Poppins] text-gray-400 text-[15px]">
+                  January 2024 | April 2024
+                </time>
+                <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
+                  Slopopedia | Software developer Intern
+                </h2>
+                <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
+                  At Slopopedia I worked in a team of 6+ engineers using an
+                  agile process. I successfully Built 3 fully responsive
+                  components using React.js and Tailwind CSS. I wrote search
+                  queries and mutations using Apollo Client and GraphQL to fetch
+                  and create data into a database satisfying front-end requests.
+                  I also provided code review to fellow engineers with a focus
+                  on code efficiency and future project needs.
+                </p>
+              </div>
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
               <time className="font-[Poppins] text-gray-400 text-[15px]">
                 April 2022 | Current
@@ -56,24 +74,6 @@ const Background = ({ handleOpenConfirmModal }) => {
                 complex sheets to track and analyze construction progress for
                 the company. Collaborating and working closely with construction
                 teams to provide accurate and efficient documents.
-              </p>
-            </div>
-            <div className="px-[15px]">
-              <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-[#f5dfa1]"></div>
-              <time className="font-[Poppins] text-gray-400 text-[15px]">
-                June 2023 | Current
-              </time>
-              <h2 className="font-[Poppins] text-white text-[15px] xs:text-[18px] mt-[10px] mb-[10px]">
-                TripleTen | Senior Software Engineering Student & Tutor
-              </h2>
-              <p className="font-[Poppins] text-gray-400 text-[15px] mb-[10px]">
-                As a senior student I am assigned to helping students improve
-                their skills with JavaScript and a high focus in OOP, as well as
-                React.js hooks, routing, and states. What I do as a senior
-                student tutor: Help other students who are stuck with 1v1
-                meetings. Fix bugs in their code, or guide them in the right
-                direction to solving a complex problem. Provide feedback and
-                review fellow students code.
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@ const Background = ({ handleOpenConfirmModal }) => {
             My Name is Dillon Arnold and Im 21 years old. Born and raised in
             Oregon & Washington but I now currently live in Nebraska with my two
             mini Aussies and my wife! On my free time you can find me either
-            golfing, or coding. Im a current student in TripleTen's software
+            golfing, or coding. Im a graduate of TripleTen's software
             engineering bootcamp where I found my biggest passion. Ive always
             been someone who loves to learn, and challenege myself and needless
             to say software developmet provides just that. I have a career

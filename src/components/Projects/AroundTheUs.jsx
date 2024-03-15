@@ -9,7 +9,7 @@ const AroundTheUs = ({ showCard, category }) => {
   return (
     <div
       className={`flex flex-col mb-[100px] gap-[10px] bg-[#2b2b2b] max-w-[400px] h-fit rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[10px] overflow-visible ${
-        showCard === "all" || showCard === category ? "block" : "hidden"
+        showCard === category ? "block" : "hidden"
       }`}
     >
       <ProjectCard

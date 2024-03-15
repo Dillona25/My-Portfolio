@@ -9,12 +9,6 @@ const ProjectsFilter = ({ handleProject }) => {
       className="flex flex-col bg-white w-[100%] position: absolute z-[2] mx-[-30px] lg:hidden"
     >
       <button
-        onClick={() => handleProject("all")}
-        className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
-      >
-        Featured
-      </button>
-      <button
         onClick={() => handleProject("Front-End")}
         className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
       >

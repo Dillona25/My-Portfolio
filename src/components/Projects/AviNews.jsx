@@ -30,7 +30,7 @@ const AviNews = ({ showCard, category }) => {
             account, edit their profile, save articles, and delete articles.
           </p>
         }
-        LiveSite={"In Progress"}
+        LiveSite={"https://www.avinews.twilightparadox.com/"}
         Code={"https://github.com/Dillona25/AviNews"}
       />
     </div>
