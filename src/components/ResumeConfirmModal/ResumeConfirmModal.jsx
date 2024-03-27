@@ -18,7 +18,7 @@ const ResumeConfirmModal = ({ handleCloseConfirmModal }) => {
           <a
             onClick={handleCloseConfirmModal}
             download="Resume.pdf"
-            href="../../src/images/Resume.pdf"
+            href="../../src/images/Official Resume PDF.pdf"
             className="py-4 px-6 bg-black text-white font-[Poppins] font-bold rounded-[10px] w-[150px] text-center  hover:scale-105 ease-out duration-75"
           >
             Download

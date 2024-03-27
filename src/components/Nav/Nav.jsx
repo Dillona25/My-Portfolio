@@ -74,12 +74,12 @@ const Nav = ({ openModal }) => {
               Testimonials
             </li>
           </Link>
-          <Link
+          <button
             onClick={openModal}
             className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
           >
             Contact
-          </Link>
+          </button>
         </ul>
       </div>
       {dropDown === false && (

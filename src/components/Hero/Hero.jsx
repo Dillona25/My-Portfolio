@@ -45,11 +45,13 @@ const Hero = () => {
             </span>
           </h1>
           <p className="font-[Poppins] text-white text-center xl:text-start xl:max-w-[600px] text-[15px] sm:text-[18px] mt-[12px]">
-            I design websites and applications that are both appealing and user
-            friendly! I have experience with front-end stacks such as HTML, CSS
-            3 as well as Tailwind, JavaScript and React.js. I have experience in
-            backend stacks such as Node.js, Express.js, MongoDB and Google
-            Cloud. Stay a minute why dont ya, there's still alot to see.
+            Full Stack engineer experienced in JavaScript, React.js, Node.js and
+            more component-based frameworks with 2 years’ experience building
+            intuitive web applications and software. Passionate about problem
+            solving through code and collaboration. Additionally, my work
+            history brings a wealth of experience in leadership, project
+            management and cross functional collaboration with a track record of
+            delivering impactful solutions.
           </p>
           <div className="flex flex-wrap gap-4 self-start justify-center mt-[24px]">
             <img
