@@ -40,6 +40,9 @@ const Nav = ({ openModal }) => {
           }`}
         ></button>
         <ul className="hidden xl:flex gap-[50px]">
+          <button className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white">
+            Internship Work
+          </button>
           <Link
             to="projects"
             spy={true}

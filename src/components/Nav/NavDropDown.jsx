@@ -11,6 +11,12 @@ const NavDropDown = ({ handleOpenDropdown }) => {
         transition={{ type: "spring", stiffness: 300 }}
         className="flex flex-col bg-white w-[100%] position: absolute z-10"
       >
+        <div
+          className="border-black border-b-[1px] p-[10px] text-center"
+          onClick={handleOpenDropdown}
+        >
+          <button className="text-black font-[Poppins]">Internship Work</button>
+        </div>
         <Link
           to="projects"
           spy={true}
