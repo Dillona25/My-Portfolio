@@ -92,7 +92,7 @@ const Background = ({ handleOpenConfirmModal }) => {
             <img
               src={Image1}
               alt="Image of myself"
-              className="h-fit w-[225px] md:h-fit md:w-[300px] object-cover rounded-full shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+              className="h-[300px] w-[225px] md:h-fit md:w-[300px] object-cover rounded-full shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
             />
           </div>
           <p className="font-[Poppins] text-[14px] xs:text-[15px] text-white text-center">
